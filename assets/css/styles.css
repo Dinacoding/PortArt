@@ -1,0 +1,7 @@
+:root {
+    --bordeaux: rgba(128, 0, 0, 0.8);         /* 80% opacity */
+    --warm-beige: rgba(245, 245, 220, 0.6);   /* 60% opacity */
+    --charcoal-gray: rgba(58, 58, 58, 0.9);   /* 90% opacity */
+    --soft-cream: rgba(245, 241, 241, 0.7);   /* 70% opacity */
+    --slate-gray: rgba(138, 133, 133, 0.8);   /* 80% opacity */
+}
