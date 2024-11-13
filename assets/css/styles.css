@@ -304,5 +304,68 @@ nav {
 /* Media queries : tables for larger ( 992px and up)*/
 
 @media screen and (min-width:992px){
+
+        /* Logo image size */
+        .navbar a > img{
+            width: 220px;
+            padding-left: 20px;
+        }
+
+        /*Navbar*/
+        #menu > li a{
+            font-size: 140%;
+        }
+        #menu > li a:hover{
+            border-bottom: 2px solid var(--bordeaux);/*had to be more specific*/
+        }
+       
+        .hidden-menu >.btn:hover , .cta >.btn-dark:hover{
+            background-color:  rgb(87, 7, 7);
     
+        }
+        #menu > li .btn{
+            border-bottom: 0 !important;
+    
+    
+        }
+        #hero-section .section-wrapper{
+            height: 70vh;
+        }
+
+        /*hero box*/
+        .hero-box{
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        z-index: 1000;
+        align-items: flex-start;
+        width: 48%;
+        background-color: var(--dark-grey);
+        }
+
+        .hero-text{
+            text-align: left;
+        }
+        .hero-box h1{
+            font-size: 210%;
+            font-weight:900;
+            line-height: 4rem;
+        }
+        .hero-box p{
+            font-size: 140%;
+            color: rgb(236, 234, 234);
+            font-weight: 400;
+        } 
+        .hero-text, .cta{
+            padding: 10px;
+        }
+        .hero-text, .cta a{
+            padding: 15px;
+            font-size: 100%;
+        }
+
+
+
 }
