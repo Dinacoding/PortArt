@@ -8,13 +8,18 @@
 
     --warm-beige: rgba(245, 245, 220, 0.6);
     /* 60% opacity */
-    --charcoal-gray: rgba(58, 58, 58, 0.2);
+    --charcoal-gray: rgba(58, 58, 58, 1);
     /* 90% opacity */
     --soft-cream: rgba(245, 241, 241, 0.7);
-    /* 70% opacity */
-    --slate-gray: rgba(138, 133, 133, 0.8);
     /* 80% opacity */
+    --slate-gray: rgba(138, 133, 133, 0.8);
+    /* 70% opacity */
     --dark-grey: rgba(30, 30, 29, 0.7);
+    /*100% opacity */
+    --mustard:rgba(255, 206,27,.5);
+
+
+
 
 
     /*fonts used*/
@@ -57,18 +62,19 @@
 .nav-btn .btn-style,
 .hidden-menu a,
 .cta>.btn-style {
-    background-color: var(--dark-grey);
-    color: var(--warm-beige);
+    background-color: var(--bordeaux);
+    color: var(--mustard);
     border-radius: 0;
     font-family: var(--font--sub-headings);
     margin-right: 3px;
+    font-weight: 500;
 
 }
 
 .nav-btn .btn-style:hover,
 .hidden-menu a:hover,
 .cta>.btn-style:hover {
-    background-color: var(--bordeaux);
+    background-color: var(--dark-grey);
     color: var(--soft-cream);
 
 
@@ -271,8 +277,8 @@ nav {
     /* Grid Section*/
 
 .section-wrapper .row{
-    background-color: var(--dark-grey);
     height: 300px;
+    background-color: var(--warm-beige);
 }
 .row{
     height: 100%;
@@ -297,10 +303,16 @@ nav {
     line-height: 1rem;
     font-family: var(--font--sub-headings);
 }
+.card-content h2{
+    font-size: 100%;
+}
+.card-content h3{
+    font-size: 110%;
+}
 .card-text{
-    color: var(--soft-cream);
+    color: var(--dark-grey);
     font-size: 90%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .img-card {
