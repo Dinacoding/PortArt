@@ -1,224 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- SEO meta tags-->
-    <meta
-      name="description"
-      content="Experience the finest  cuisine at PortArt, where traditional flavors meet contemporary elegance. Discover our menu, crafted with passion for food lovers."
-    />
-    <meta
-      name="keywords"
-      content="PortArt, Restaurant, fine dining, traditional cuisine, foodies, restaurant near me, gourmet dining, London, United Kingdom"
-    />
-    <meta name="author Amandio Dinarte Orepolo" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PorArt Restaurant</title>
-    <!--Favicon Icon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/image/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/image/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/image/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/image/favicon/site.webmanifest" />
-    <!--Stylesheet link-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!--Bootsrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body>
-    <header id="header">
-      <!--Navbar Section-->
-      <div class="navbar" aria-labelledby="PortArt-link div-a.btn">
-        <a href="index.html" arial-label="PortArt link logo">
-          <img src="assets/image/logo.svg" alt="PorArt Restaurant logo" />
-        </a>
-        <div class="nav-btn">
-          <a href="contact.html#booking-form" class="btn btn-style">Visit Us</a>
+<head>
+  <!-- SEO meta tags-->
+  <meta name="description"
+    content="Experience the finest  cuisine at PortArt, where traditional flavors meet contemporary elegance. Discover our menu, crafted with passion for food lovers." />
+  <meta name="keywords"
+    content="PortArt, Restaurant, fine dining, traditional cuisine, foodies, restaurant near me, gourmet dining, London, United Kingdom" />
+  <meta name="author Amandio Dinarte Orepolo" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PorArt Restaurant</title>
+  <!--Favicon Icon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/image/favicon/site.webmanifest" />
+  <!--Stylesheet link-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--Bootsrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header id="header">
+    <!--Navbar Section-->
+    <div class="navbar" aria-labelledby="PortArt-link div-a.btn">
+      <a href="index.html" arial-label="PortArt link logo">
+        <img src="assets/image/logo.svg" alt="PorArt Restaurant logo" />
+      </a>
+      <div class="nav-btn">
+        <a href="contact.html#booking-form" class="btn btn-style">Visit Us</a>
+      </div>
+    </div>
+    <div class="list">
+      <!-- Toggler menu -->
+      <input type="checkbox" id="nav-toggler" name="nav-toggler" aria-labelledby="nav-toggler-label" />
+      <label for="nav-toggler" id="nav-toggler-label" class="nav-toggler-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav role="navigation" aria-label="Primary Navigation">
+        <ul id="menu">
+          <li>
+            <a href="index.html" class="active" aria-label="Go to Home Page">Home</a>
+          </li>
+          <li>
+            <a href="about.html" aria-label="Go to About Page">About</a>
+          </li>
+          <li>
+            <a href="menu.html" aria-label="Go to Menu Page">Menu</a>
+          </li>
+          <li>
+            <a href="contact.html" aria-label="Go to contact Page">Contact</a>
+          </li>
+          <li class="hidden-item">
+            <a href="contact.html#booking-form" aria-label="Go to booking section">Visit us</a>
+          </li>
+          <!-- hidden menu displays only when the screen size is 768px or higher -->
+          <li class="hidden-menu">
+            <a href="contact.html#booking-form" class="btn btn-style" aria-label="Go to booking section">Visit us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of the list section-->
+  </header>
+  <!--End of the Header-->
+  <!--Main Starts-->
+  <main>
+    <!--Hero Section starts-->
+    <section>
+      <div id="hero-section">
+        <div class="section-wrapper" aria-label="Welcome message and call to action container">
+          <!--Hero-left-side-->
+          <div class="hero-box p-4 left" aria-label="Hero content area">
+            <div class="hero-text" aria-label="Introduction text">
+              <h1>Welcome to PortArt</h1>
+              <p>
+                “Step into a world where culinary artistry meets timeless
+                elegance.
+              </p>
+            </div>
+            <div class="cta" aria-label="Call to action">
+              <a href="contact.html#booking-form" class="btn btn-style" aria-label="Reserve a table now">Reserve Now</a>
+            </div>
+          </div>
+          <!-- End of Hero Box-->
+          <!--Hero Image-->
+          <div class="hero-img" aria-label="Hero video section">
+            <video src="assets/image/hero.mp4.mp4" type="video/mp4" autoplay muted loop playsinline
+              aria-label="Welcome video showcasing PortArt restaurant experience" title="Welcome to PortArt video">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
-      <div class="list">
-        <!-- Toggler menu -->
-        <input
-          type="checkbox"
-          id="nav-toggler"
-          name="nav-toggler"
-          aria-labelledby="nav-toggler-label"
-        />
-        <label
-          for="nav-toggler"
-          id="nav-toggler-label"
-          class="nav-toggler-label"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav role="navigation" aria-label="Primary Navigation">
-          <ul id="menu">
-            <li>
-              <a href="index.html" class="active" aria-label="Go to Home Page"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a href="about.html" aria-label="Go to About Page">About</a>
-            </li>
-            <li>
-              <a href="menu.html" aria-label="Go to Menu Page">Menu</a>
-            </li>
-            <li>
-              <a href="contact.html" aria-label="Go to contact Page">Contact</a>
-            </li>
-            <li class="hidden-item">
-              <a
-                href="contact.html#booking-form"
-                aria-label="Go to booking section"
-                >Visit us</a
-              >
-            </li>
-            <!-- hidden menu displays only when the screen size is 768px or higher -->
-            <li class="hidden-menu">
-              <a
-                href="contact.html#booking-form"
-                class="btn btn-style"
-                aria-label="Go to booking section"
-                >Visit us</a
-              >
-            </li>
-          </ul>
-        </nav>
+    </section>
+    <!--Hero Section End-->
+    <!-- Heading about the chefs art and small description-->
+    <section>
+      <div class="section-wrapper" aria-label="Exquisite Culinary Delights Section">
+        <div class="box">
+          <h2 class="text-body-emphasis" aria-labelledby="culinary-heading">
+            Exquisite Culinary Delights
+          </h2>
+          <p aria-label="Culinary Delights Description">
+            Our chefs, masters of their craft, bring together traditional
+            techniques and modern innovation to create memorable dining
+            experiences. Whether it’s a delicate amuse-bouche or a dessert we
+            promise to transform any meal into a moment of indulgence and
+            delight, perfect isn't it!
+          </p>
+        </div>
       </div>
-      <!--End of the list section-->
-    </header>
-    <!--End of the Header-->
-    <!--Main Starts-->
-    <main>
-      <!--Hero Section starts-->
-      <section>
-        <div id="hero-section">
-          <div
-            class="section-wrapper"
-            aria-label="Welcome message and call to action container"
-          >
-            <!--Hero-left-side-->
-            <div class="hero-box p-4 left" aria-label="Hero content area">
-              <div class="hero-text" aria-label="Introduction text">
-                <h1>Welcome to PortArt</h1>
-                <p>
-                  “Step into a world where culinary artistry meets timeless
-                  elegance.
+    </section>
+    <!--End of the heading and description-->
+    <!-- Picture for public engagement starts-->
+    <section>
+      <div class="section-wrapper" aria-label="Gallery of Restaurant Images">
+        <div class="gallery">
+          <img src="assets/image/macaron.jpg" alt="macaron dessert" />
+          <img src="assets/image/dinning.jpg" alt="A group of people dinning at PortArt" />
+          <img src="assets/image/restaurant.jpg" alt="indoors picture of the restaurant" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="section-wrapper" aria-label="Philosophy Section">
+        <div class="box">
+          <h2 class="text-body-emphasis" aria-labelledby="philosophy-heading">
+            Our Philosophy
+          </h2>
+          <p aria-label="Philosophy Description">
+            At PortArt, we believe that dining is a form of art that transcends the ordinary. Our philosophy is grounded
+            in the notion that every meal should be an immersive sensory experience, blending creativity, passion, and
+            precision.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Indulge in Culinary Art Section Start -->
+    <section>
+      <div class="section-wrapper">
+        <div class="container-fluid px-6">
+          <div class="row full-height">
+            <div class="col col-12 col-md-6">
+              <div class="card-content full-height px-2">
+                <br />
+                <h2>"Indulge in Culinary Art"</h2>
+                <h3 class="card-title">
+                  "Join us for a journey where each plate tells a story"
+                </h3>
+                <p class="card-text">
+                  "At Portart, dining is more than a meal—it’s a masterpiece -
+                  blending fresh, seasonal ingredients with innovative flavors
+                  that surprise and delight."
                 </p>
-              </div>
-              <div class="cta" aria-label="Call to action">
-                <a
-                  href="contact.html#booking-form"
-                  class="btn btn-style"
-                  aria-label="Reserve a table now"
-                  >Reserve Now</a
-                >
+                <div>
+                  <a href="about.html" class="btn btn-dark" aria-label="Learn more about PortArt">Get to know us</a>
+                </div>
+                <br />
               </div>
             </div>
-            <!-- End of Hero Box-->
-            <!--Hero Image-->
-            <div class="hero-img" aria-label="Hero video section">
-              <video
-                src="assets/image/hero.mp4.mp4"
-                type="video/mp4"
-                autoplay
-                muted
-                loop
-                playsinline
-                aria-label="Welcome video showcasing PortArt restaurant experience"
-                title="Welcome to PortArt video"
-              >
-                Your browser does not support the video tag.
-              </video>
+            <div class="col col-12 col-md-6 px-0">
+              <img src="assets/image/philosophy-1.jpg" alt="A dish of amuse-bouche" class="img-fluid img-card" />
             </div>
           </div>
         </div>
-      </section>
-      <!--Hero Section End-->
-      <!-- Heading about the chefs art and small description-->
-      <section>
-        <div
-          class="section-wrapper"
-          aria-label="Exquisite Culinary Delights Section"
-        >
-          <div class="box">
-            <h2 class="text-body-emphasis" aria-labelledby="culinary-heading">
-              Exquisite Culinary Delights
-            </h2>
-            <p aria-label="Culinary Delights Description">
-              Our chefs, masters of their craft, bring together traditional
-              techniques and modern innovation to create memorable dining
-              experiences. Whether it’s a delicate amuse-bouche or a dessert we
-              promise to transform any meal into a moment of indulgence and
-              delight, perfect isn't it!
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--End of the heading and description-->
-      <!-- Picture for public engagement starts-->
-      <section>
-        <div class="section-wrapper" aria-label="Gallery of Restaurant Images">
-          <div class="gallery">
-            <img src="assets/image/macaron.jpg" alt="macaron dessert" />
-            <img
-              src="assets/image/dinning.jpg"
-              alt="A group of people dinning at PortArt"
-            />
-            <img
-              src="assets/image/restaurant.jpg"
-              alt="indoors picture of the restaurant"
-            />
-          </div>
-        </div>
-      </section>
-      <section>
-        <div
-          class="section-wrapper"
-          aria-label="Philosophy Section"
-        >
-          <div class="box">
-            <h2 class="text-body-emphasis" aria-labelledby="philosophy-heading">
-              Our Philosophy
-            </h2>
-            <p aria-label="Philosophy Description">
-              At PortArt, we believe that dining is a form of art that transcends the ordinary. Our philosophy is grounded in the notion that every meal should be an immersive sensory experience, blending creativity, passion, and precision.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer></footer>
-    <!--Fontawesome Kit link-->
-    <script
-      src="https://kit.fontawesome.com/8fc24c8282.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--Boostrap Javascript-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer></footer>
+  <!--Fontawesome Kit link-->
+  <script src="https://kit.fontawesome.com/8fc24c8282.js" crossorigin="anonymous"></script>
+  <!--Boostrap Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
