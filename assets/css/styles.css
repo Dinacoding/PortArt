@@ -3,7 +3,9 @@
 
 :root {
     --bordeaux: rgba(128, 0, 0, 1);
-    /* 80% opacity */
+    /* 100% opacity */
+    --lighter-bordeaux: rgba(128, 0, 0,0.4); /* Deep red/bordeaux color */
+
     --warm-beige: rgba(245, 245, 220, 0.6);
     /* 60% opacity */
     --charcoal-gray: rgba(58, 58, 58, 0.2);
@@ -269,7 +271,7 @@ nav {
     /* Grid Section*/
 
 .section-wrapper .row{
-    background-color: var(--bordeaux);
+    background-color: var(--dark-grey);
     height: 300px;
 }
 .row{
@@ -283,14 +285,28 @@ nav {
     margin: 0;
     width: 100%;
     max-height: 300px;
+    padding: 10px;
 
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--bordeaux);
+    text-align: center;
+    line-height: 1rem;
+    font-family: var(--font--sub-headings);
+}
+.card-text{
+    color: var(--soft-cream);
+    font-size: 90%;
+    margin-top: 20px;
 }
 
 .img-card {
-   /* Ensures image fills the height of the column */
-    object-fit: cover; /* Optional: keeps the image aspect ratio */
-    max-height: 350px;
-    height: 100%;
+    max-height: 300px;
+    width: 100%;
+
 }
 
 
@@ -394,6 +410,12 @@ nav {
         border-radius: 9px;
     }
 
+    /*grid*/
+    
+    .col .img-card{
+        height: 300px;
+    }
+
 }
 
 /* Media queries : tables for larger ( 992px and up)*/
@@ -453,7 +475,7 @@ nav {
         font-weight: 400;
 
     }
-
+    /* cta button */
     .hero-text,
     .cta {
         padding: 10px;
@@ -467,6 +489,8 @@ nav {
         font-size: 100%;
         z-index:2;
     }
+
+    /*Box Container*/
 
     .section-wrapper .box {
         height: 40vh;
