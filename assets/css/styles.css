@@ -215,11 +215,8 @@ nav {
     height: 100%;
     object-fit: cover;
     z-index: 1;
-
-
-
-
 }
+
 
 /* Media queries : tables for larger ( 768px and up)*/
 
@@ -275,7 +272,7 @@ nav {
     }
 
     #menu>li>a {
-        margin-right: 9px;
+        margin-right: 20px;
         font-size: 90%;
         color: var(--warm-beige);
     }
