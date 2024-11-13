@@ -216,6 +216,25 @@ nav {
     object-fit: cover;
     z-index: 1;
 }
+.section-wrapper .box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.box{
+    text-align: center;
+}
+.box h2{
+    color: var(--charcoal-gray);
+    margin-bottom: 20px;
+    font-size: 160%;
+}
+.box p{
+    color: var(--dark-grey);
+    font-size: 120%;
+}
 
 
 /* Media queries : tables for larger ( 768px and up)*/
@@ -295,6 +314,11 @@ nav {
 
     .nav-toggler-label {
         display: none;
+    }
+    /* box styling */
+    .box{
+        margin: 0 auto;
+        width: 60%;
     }
 }
 
