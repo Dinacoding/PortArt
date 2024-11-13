@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --bordeaux: rgba(128, 0, 0, 0.8);
     /* 80% opacity */
@@ -11,12 +12,12 @@
     /* 70% opacity */
     --slate-gray: rgba(138, 133, 133, 0.8);
     /* 80% opacity */
-    --dark-grey:rgba(30, 30, 29,0.7);
+    --dark-grey: rgba(30, 30, 29, 0.7);
 
 
     /*fonts used*/
 
-    --font-headings:font-family: 'Cormorant Garamond', serif;
+    --font-headings: font-family: 'Cormorant Garamond', serif;
     --font--sub-headings: font-family: "Gothic A1", sans-serif;
     --font--general--text: font-family: 'Manrope', sans-serif;
 
@@ -36,6 +37,7 @@
     width: 100%;
     z-index: 100;
 }
+
 /* Navbar styling*/
 .navbar {
     display: flex;
@@ -43,7 +45,7 @@
     padding: 0 20px;
 }
 
-.navbar> a > img {
+.navbar>a>img {
     margin-left: 3px;
     width: 150px;
 }
@@ -51,15 +53,18 @@
 
 
 /*btn styling*/
-.nav-btn .btn-style , .hidden-menu a{
+.nav-btn .btn-style,
+.hidden-menu a {
     background-color: var(--dark-grey);
     color: var(--warm-beige);
     border-radius: 0;
     font-family: var(--font--sub-headings);
-    margin-right:3px;
+    margin-right: 3px;
 
 }
-.nav-btn .btn-style:hover , .hidden-menu a:hover{
+
+.nav-btn .btn-style:hover,
+.hidden-menu a:hover {
     background-color: var(--bordeaux);
     color: var(--soft-cream);
 
@@ -67,72 +72,90 @@
 }
 
 /* List for smaller screens responsive*/
-.list{
+.list {
     text-align: right;
-    position: relative;/* it is direct relative to the list class*/
+    position: relative;
+    /* it is direct relative to the list class*/
 
 }
 
 /* Navigation container styling */
 
-nav{
-    position: absolute; /* nav is absolute to the list class*/
+nav {
+    position: absolute;
+    /* nav is absolute to the list class*/
     width: 100%;
     right: 0;
-    display: none; /* Initially hidden, shown when toggled */
+    display: none;
+    /* Initially hidden, shown when toggled */
 
 
 }
+
 /* Show nav menu when toggler is checked */
-#nav-toggler:checked ~ nav{
-    display: block; /*it allows the nav to scroll down*/
+#nav-toggler:checked~nav {
+    display: block;
+    /*it allows the nav to scroll down*/
     max-width: 100%;
-    
+
 
 }
 
-#nav-toggler{
-    display: none; /*hides the toggler*/
+#nav-toggler {
+    display: none;
+    /*hides the toggler*/
 }
 
 /* Styling for the nav toggle label */
-.nav-toggler-label{
-    cursor: pointer; /*when the cursor hovers the icon*/
-    font-size: 2rem; /* Large icon size for easy tapping */
+.nav-toggler-label {
+    cursor: pointer;
+    /*when the cursor hovers the icon*/
+    font-size: 2rem;
+    /* Large icon size for easy tapping */
     text-align: right;
 }
-.nav-toggler-label i{
+
+.nav-toggler-label i {
     margin-right: 6px;
     color: var(--bordeaux);
 }
+
 /* Menu list styling */
 #menu {
-    letter-spacing: 4px; /* Adds spacing between letters */
-    font-size:80%; /* Slightly larger font */
+    letter-spacing: 4px;
+    /* Adds spacing between letters */
+    font-size: 80%;
+    /* Slightly larger font */
     display: block;
     background-color: var(--charcoal-gray);
-    font-family:var(--font--sub-headings);
-    font-weight:500;
+    font-family: var(--font--sub-headings);
+    font-weight: 500;
     letter-spacing: 8px;
+    z-index: 990;
 }
+
 /* Show menu with a slide-down effect when toggler is checked */
-#nav-toggler:checked ~ #menu {
-    max-height: 500px; /* Set a max height to make it slide down */
+#nav-toggler:checked~#menu {
+    max-height: 500px;
+    /* Set a max height to make it slide down */
     display: block;
     width: 100%;
     background-color: var(--bordeaux);
 }
 
 /* Individual menu item styling */
-.active{
-    border-bottom: 1px solid rgb(87, 7, 7);
+.active {
+    border-bottom: 1px solid var(--bordeaux);
     padding-bottom: 4px;
 }
-.hidden-menu{
-    display: none;/*hides the last child of the ul*/
+
+.hidden-menu {
+    display: none;
+    /*hides the last child of the ul*/
 }
+
 /* Link styling within menu items */
-#menu li a{
+#menu li a {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 700;
@@ -144,26 +167,64 @@ nav{
     font-family: "Gothic A1", sans-serif;
 
 }
+
 /* Hero section styling*/
-#hero-section{
+#hero-section {
     height: 100%;
 }
-#hero-section > .section-wrapper{
+
+#hero-section>.section-wrapper {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
-    height: fit-content;
     width: 100%;
-    background-color: #F5F5DC;
     padding: 0;
+    position: relative;
+    height: 50vh;
+}
+.hero-box{
+    position: absolute;
+    z-index:4;
+    
+}
+.hero-text{
+    color:var(--bordeaux);
+        font-weight: 600;
+    h1{
+        font-weight: 900;
+
+    }
+    p{
+        color: var(--warm-beige);
+        font-weight: 900;
+    }
+}
+
+
+.hero-img {
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+    background: linear-gradient(var(--bordeaux), rgba(--dark-grey));
+
+
+}
+.hero-img > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+
+
 
 }
 
 /* Media queries : tables for larger ( 768px and up)*/
 
-@media screen and (min-width:768px){
-    #header{
+@media screen and (min-width:768px) {
+    #header {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -171,35 +232,40 @@ nav{
     }
 
     /* Navbar layout settings */
-    .navbar{
-        padding:20px ;
+    .navbar {
+        padding: 20px;
         border: 0;
     }
 
-    
+
     /* Logo image size */
 
-    .navbar > a{
+    .navbar>a {
         margin-left: 3px;
         width: 200px;
     }
-    .navbar> a > img{
+
+    .navbar>a>img {
         width: 100%;
     }
 
-    .navbar > .nav-btn, .hidden-item{
-        display:none; /* hide the button inside the name bar div*/
+    .navbar>.nav-btn,
+    .hidden-item {
+        display: none;
+        /* hide the button inside the name bar div*/
     }
-    nav{
-        display:block;
+
+    nav {
+        display: block;
         position: relative;
         width: 100%;
     }
-    .list{
+
+    .list {
         border: none;
     }
 
-    #menu{
+    #menu {
         display: flex;
         align-items: center;
         margin-bottom: 0;
@@ -208,26 +274,29 @@ nav{
 
     }
 
-    #menu > li > a {
-        margin-right:9px;
+    #menu>li>a {
+        margin-right: 9px;
         font-size: 90%;
         color: var(--warm-beige);
     }
+
     .hidden-menu {
         display: block;
-        margin-right:2px;
+        margin-right: 2px;
 
     }
-    .nav-toggler-label{
-        display: none;
-    }  
 
-    .hidden-menu a{
+    .nav-toggler-label {
+        display: none;
+    }
+
+    .hidden-menu a {
         text-align: center;
         padding: 10px;
 
     }
-    .nav-toggler-label{
+
+    .nav-toggler-label {
         display: none;
-    }  
+    }
 }
