@@ -54,7 +54,7 @@
 
 /*btn styling*/
 .nav-btn .btn-style,
-.hidden-menu a {
+.hidden-menu a ,.cta > .btn-style{
     background-color: var(--dark-grey);
     color: var(--warm-beige);
     border-radius: 0;
@@ -64,7 +64,7 @@
 }
 
 .nav-btn .btn-style:hover,
-.hidden-menu a:hover {
+.hidden-menu a:hover , .cta > .btn-style:hover{
     background-color: var(--bordeaux);
     color: var(--soft-cream);
 
@@ -318,11 +318,7 @@ nav {
         #menu > li a:hover{
             border-bottom: 2px solid var(--bordeaux);/*had to be more specific*/
         }
-       
-        .hidden-menu >.btn:hover , .cta >.btn-dark:hover{
-            background-color:  rgb(87, 7, 7);
-    
-        }
+
         #menu > li .btn{
             border-bottom: 0 !important;
     
@@ -355,15 +351,18 @@ nav {
         }
         .hero-box p{
             font-size: 140%;
-            color: rgb(236, 234, 234);
             font-weight: 400;
+            
         } 
         .hero-text, .cta{
             padding: 10px;
+            z-index: 5;
+
         }
         .hero-text, .cta a{
             padding: 15px;
             font-size: 100%;
+            z-index: 5;
         }
 
 
