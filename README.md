@@ -23,13 +23,13 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - Find the form easily
 - I wish I could take someone special there today
 - Information should be displayed on the website without the need to call
-- 
+
 
 
 ### How will I achieve this 
 - **Layout and media files** Adding engaging graphics and media to convey the identity and menu
 - **Navigation and CTAs buttons** Easy to access buttons for the booking form.
-- **Clear pieces of information* Organise a multipage layout to guide users with through headings and prioritise the content with colors for more important content.
+- **Clear pieces of information** Organise a multipage layout to guide users with through headings and prioritise the content with colors for more important content.
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ##
