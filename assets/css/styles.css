@@ -14,7 +14,7 @@
     /* 80% opacity */
     --slate-gray: rgba(138, 133, 133, 0.8);
     /* 30% opacity */
-    --dark-grey: rgba(30, 30, 29, 0.3);
+    --dark-grey: rgba(30, 30, 29, 0.5);
     /*100% opacity */
     --mustard:rgba(255, 206,27,.5);
 
@@ -40,7 +40,7 @@
 }
 
 #header,footer {
-    background-color: var(--dark-grey);
+    background-color: var(--warm-beige);
     width: 100%;
 }
 
@@ -144,7 +144,7 @@ nav {
     font-size: 80%;
     /* Slightly larger font */
     display: block;
-    background-color: var(--charcoal-gray);
+    background-color: var(--dark-grey);
     font-family: var(--font--sub-headings);
     font-weight: 500;
     letter-spacing: 8px;
@@ -448,16 +448,26 @@ p {
 }
 .section-wrapper, .about-section .row .card-content .card-text{
    margin-bottom: 10px;
-   font-size: 85%;
+   font-size: 80%;
     max-width: 100%;
 }
 .section-wrapper, .about-section .row .card-content{
     padding: 10px;
-    font-size: ;
+    font-size:100%;
 }
 
 .about-section .col .img-card{
     max-width: 100%;
+    
+}
+.about-container{
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container .card-content{
+    margin: auto 0;
 }
 /* Events*/
 
@@ -468,12 +478,17 @@ p {
 
 }
 .menu-item h3{
-    font-size: 130%;
+    font-size: 100%;
+    color: var(--bordeaux);
 
 }
 .menu-item p{
     color: var(--charcoal-gray);
+    font-size: 90%;
     
+}
+.description{
+    margin-bottom: 8px;
 }
 
 
@@ -621,7 +636,7 @@ p {
     }
 
     #hero-section .section-wrapper {
-        height: 70vh;
+        height: 60vh;
     }
 
     /*hero box*/
@@ -668,7 +683,7 @@ p {
     /*Box Container*/
 
     .section-wrapper .box {
-        height: 40vh;
+        height: 20vh;
         width: 50%;
     }
 
@@ -678,6 +693,22 @@ p {
         justify-content: center;
     }
 
+    .row{
+        height: 400px;
+    }
+
+    .col{
+        min-height: 100%;
+    }
+    .img-card{
+         min-height: 400px;
+    }
+    .col .card-content{
+        margin: 0 40px;
+        padding: 30px;
+        
+
+    }
     .card-content h2{
         font-size: 160%;
     }
@@ -686,24 +717,15 @@ p {
         font-size: 170%;
     }
 
-    .card-content p{
-        font-size: 180%;
-        margin-bottom: 20px;
-        line-height: 2rem;
-        padding: 20px;
-
-
-    }
-    
-    .section-wrapper .container-img {
-    height: 60vh;
-    }
-   
 
     .section-wrapper, .about-section .row .card-content .card-text{
         padding: 0;
-        font-size: 120%;
+        font-size: 100%;
         margin-top: 20px;
+    }
+
+    .events-box{
+        margin-bottom: 50px;
     }
     .events{
         display: row;
@@ -715,6 +737,12 @@ p {
     
     }
     
+    .menu-item h3{
+        font-size: 160%;
+    }
+    .menu-item p{
+        font-size: 140%;
+    }
   
 }
 /* Media queries : tables for larger (1200px and up)*/
@@ -760,12 +788,16 @@ p {
     }
 
     .card-content p{
-        font-size: 170%;
+        font-size: 150%;
         margin-bottom: 20px;
         line-height: 2rem;
         padding: 20px;
 
 
+    }
+
+    .menu-item h3{
+        font-size: 190%;
     }
     
 }
