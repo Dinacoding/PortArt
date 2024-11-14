@@ -44,6 +44,9 @@
     width: 100%;
 }
 
+
+
+
 /* Navbar styling*/
 .navbar {
     display: flex;
@@ -180,6 +183,67 @@ nav {
     font-family: "Gothic A1", sans-serif;
     z-index: 100;
 
+}
+
+/*footer styling*/
+
+footer{
+    background-color: var(--warm-beige);
+    width: 100%;
+
+}
+.footer-container{
+    height:fit-content;
+    width: 100%;
+    padding: 20px;
+
+
+}
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+}
+.footer-nav div{
+    order:3;
+}
+
+.footer-nav ul {
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+    color: var(--warm-beige);
+
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.fa-facebook-f,
+.fa-google,
+.fa-instagram {
+	transition: color 0.2s;
+}
+
+.fa-facebook-f:hover {
+	color: #3b5998;
+}
+
+.fa-google:hover {
+	color: #dd4b39;
+}
+
+.fa-instagram:hover {
+	color: pink;
+}
+
+footer p {
+	text-align: center;
 }
 
 /* Hero section styling*/
@@ -348,65 +412,10 @@ p {
     font-weight: 700;
 }
 
-/*footer styling*/
+/*About section styling*/
 
-footer{
-    background-color: var(--warm-beige);
-    width: 100%;
-
-}
-.footer-container{
-    height:fit-content;
-    width: 100%;
-    padding: 20px;
-
-
-}
-.footer-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-
-}
-.footer-nav div{
-    order:3;
-}
-
-.footer-nav ul {
-    padding: 0;
-    display: inline-flex;
-    gap: 20px;
-    color: var(--warm-beige);
-
-}
-.footer-nav ul li a{
-    text-decoration: none;
-    color: var(--dark-grey);
-}
-
-.fa-facebook-f,
-.fa-google,
-.fa-instagram {
-	transition: color 0.2s;
-}
-
-.fa-facebook-f:hover {
-	color: #3b5998;
-}
-
-.fa-google:hover {
-	color: #dd4b39;
-}
-
-.fa-instagram:hover {
-	color: pink;
-}
-
-footer p {
-	text-align: center;
+.about-section .row .card-content .card-text{
+    margin-bottom: 10px;
 }
 
 /* Media queries : tables for larger ( 768px and up)*/
@@ -612,6 +621,20 @@ footer p {
 /* Media queries : tables for larger (1200px and up)*/
 
 @media (min-width: 1200px) {
+    h1{
+        font-size:70px;
+        }
+    }
+   
+    .box h2{
+        font-size: 200%;
+    }
+    
+    .box p{
+    font-size: 170%;
+    
+    }
+    
     .row{
         height: 500px;
     }
@@ -622,22 +645,26 @@ footer p {
     .img-card{
         min-height: 100%;
     }
-    .card-content{
+    .col .card-content{
         margin: 0 40px;
+        padding: 100px;
 
     }
+
     .card-content h2{
-        font-size: 150%;
+        font-size: 160%;
     }
 
     .card-content h3{
         font-size: 170%;
     }
 
-    .card-text {
-        font-size: 160%;
+    .card-content p{
+        font-size: 170%;
         margin-bottom: 20px;
         line-height: 2rem;
         padding: 20px;
+
+
     }
 }
