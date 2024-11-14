@@ -355,6 +355,7 @@ p {
 .about-events h2{
     text-align: center;
     margin-bottom: 20px;
+    height: fit-content;
 }
 .events-box{
     display: flex;
@@ -368,6 +369,7 @@ p {
     border: 2px solid var(--dark-grey);
     border-radius: 7px;
     text-align: center;
+    
 }
 .events h3{
     color:var(--bordeaux)
@@ -458,9 +460,6 @@ p {
 }
 /* Events*/
 
-.events img{
-    height: 300px;
-}
 /* Media queries : tables for larger ( 768px and up)*/
 
 @media screen and (min-width:768px) {
@@ -670,6 +669,12 @@ p {
         display: row;
         width: 30%;
     }
+
+    .events p {
+        font-size: 140%;
+    
+    }
+    
   
 }
 /* Media queries : tables for larger (1200px and up)*/
@@ -721,4 +726,5 @@ p {
 
 
     }
+    
 }
