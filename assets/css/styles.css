@@ -350,8 +350,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
+
+}
+.footer-nav div{
+    order:2;
 }
 
 .footer-nav ul {
@@ -360,6 +365,10 @@ footer{
     gap: 20px;
     color: var(--warm-beige);
 
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: var(--dark-grey);
 }
 
 .fa-facebook-f,
