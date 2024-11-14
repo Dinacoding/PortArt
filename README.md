@@ -1,11 +1,9 @@
 # PortArt
 
-## About <a name="About">
+## About
 PortArt is a restaurant made for people who want  a journey into the heart of extraordinary flavours. It is a branding website that brings the essence and unique experience that casual dining can bring. The objective of the PortArt Restaurant is to provide to the user a clear vision of what the brand PortArt is and develop a sense of trust, aiming to get them as customers and make a reservation.[This is my live link](https://dinacoding.github.io/PortArt/)
 
-<<<<<<< HEAD
 ## Planning
-
 ### Set Aims
 1. Capture the attention of the user with high quality images and engaging content.
 2. Make it simple the reservation process, making it easy for users to share the details
@@ -38,4 +36,3 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 [This is my live project][def]
 
 [def]: https://dinacoding.github.io/PortArt/gi
->>>>>>> b0f02ae (Adjusted font size in the about and menu pages)
