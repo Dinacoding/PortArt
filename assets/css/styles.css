@@ -356,7 +356,7 @@ footer{
 
 }
 .footer-nav div{
-    order:2;
+    order:3;
 }
 
 .footer-nav ul {
@@ -519,6 +519,10 @@ footer p {
     
     .col .img-card{
         height: 300px;
+    }
+
+    .footer-nav div{
+        order:2;
     }
 
 }
