@@ -510,7 +510,40 @@ nav {
     .box{
         display: flex;
         flex-direction: column;
-       justify-content: center;
+        justify-content: center;
     }
 
+  
+}
+/* Media queries : tables for larger (1200px and up)*/
+
+@media (min-width: 1200px) {
+    .row{
+        height: 500px;
+    }
+
+    .col{
+        min-height: 500px;
+    }
+    .img-card{
+        min-height: 100%;
+    }
+    .card-content{
+        margin: 0 40px;
+
+    }
+    .card-content h2{
+        font-size: 150%;
+    }
+
+    .card-content h3{
+        font-size: 170%;
+    }
+
+    .card-text {
+        font-size: 155%;
+        margin-bottom: 20px;
+        line-height: 2rem;
+        padding: 20px;
+    }
 }
