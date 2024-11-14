@@ -319,6 +319,18 @@ nav {
 
 }
 
+/* Container-image Section"*/
+
+.section-wrapper .container-img {
+    background: url("../image/container-img.jpg") no-repeat left top/cover, linear-gradient(var(--warm-beige), var(--dark-grey));
+    height: 30vh;
+}
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* Media queries : tables for larger ( 768px and up)*/
