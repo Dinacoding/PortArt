@@ -415,10 +415,16 @@ p {
 }
 
 /*About section styling*/
-
+.section-wrapper .about-section{
+    margin: 0;
+}
 .section-wrapper, .about-section .row .card-content .card-text{
    margin-bottom: 10px;
-
+   font-size: 85%;
+    max-width: 100%;
+}
+.section-wrapper, .about-section .row .card-content{
+    padding: 10px;
 }
 
 .about-section .col .img-card{
@@ -534,7 +540,11 @@ p {
         order:2;
     }
 
+   .section-wrapper .about-section  {
+    margin: 0;
+   }
 }
+
 
 /* Media queries : tables for larger ( 992px and up)*/
 
