@@ -190,6 +190,7 @@ nav {
 footer{
     background-color: var(--warm-beige);
     width: 100%;
+    height: fit-content;
 
 }
 .footer-container{
@@ -384,8 +385,9 @@ p {
 }
 .card-content p{
     color: var(--charcoal-gray);
-    font-size: 105%;
+    font-size: 100%;
     margin-bottom:30px;
+    line-height: 1.7rem;
     font-family: 'Lato', sans-serif;
 }
 
@@ -414,8 +416,13 @@ p {
 
 /*About section styling*/
 
-.about-section .row .card-content .card-text{
-    margin-bottom: 10px;
+.section-wrapper, .about-section .row .card-content .card-text{
+   margin-bottom: 10px;
+
+}
+
+.about-section .col .img-card{
+    max-width: 100%;
 }
 
 /* Media queries : tables for larger ( 768px and up)*/
@@ -623,7 +630,7 @@ p {
 @media (min-width: 1200px) {
     h1{
         font-size:70px;
-        }
+
     }
    
     .box h2{
