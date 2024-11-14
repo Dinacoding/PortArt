@@ -39,6 +39,9 @@
     text-decoration: none;
 }
 
+body{
+    overflow-x: hidden;
+}
 #header,footer {
     background-color: var(--warm-beige);
     width: 100%;
@@ -303,7 +306,6 @@ p {
 }
 
 .section-wrapper .box {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -636,7 +638,7 @@ p {
     }
 
     #hero-section .section-wrapper {
-        height: 60vh;
+        height: 70vh;
     }
 
     /*hero box*/
@@ -752,13 +754,19 @@ p {
         font-size:70px;
 
     }
+
+    .section-wrapper .box {
+        height: 40vh;
+        width: 50%;
+    }
+
    
     .box h2{
-        font-size: 200%;
+        font-size: 170%;
     }
     
     .box p{
-    font-size: 170%;
+    font-size: 120%;
     
     }
     
