@@ -257,7 +257,7 @@ p {
 }
 
 .box p {
-    color: var(--dark-grey);
+    color: (var(--charcoal-gray));
     font-size: 120%;
     font-family: 'Lato', sans-serif;
 }
@@ -313,6 +313,7 @@ p {
 }
 .card-content h2{
     font-size: 100%;
+    font-weight: 700;
 }
 .card-content h3{
     font-size: 110%;
@@ -340,6 +341,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--charcoal-gray);
+}
+.container-img h3{
+    color: var(--bordeaux);
+    font-weight: 700;
 }
 
 /*footer styling*/
