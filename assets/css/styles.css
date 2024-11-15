@@ -541,6 +541,45 @@ p {
         /* Darker Bordeaux for hover */
 }
 
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+/* Card Styling */
+.thank-you-card {
+    text-align: center;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+/* Heading */
+.thank-you-card h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.thank-you-card p {
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+
+.thank-you-card .btn-home:hover {
+    background: #0056b3;
+}
+
 /* Media queries : tables for larger ( 768px and up)*/
 
 @media screen and (min-width:768px) {

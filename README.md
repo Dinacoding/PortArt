@@ -75,13 +75,14 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 ## Page features
 ### Home 
 - **Hero Section**: A video  and a CTA button with a large heading
-- **box
+
 
 ![]
 
 ## Designer Choices
 
 ### Color scheme
+
 ### Typography
 
 
@@ -92,7 +93,12 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - [GoogleFonts]()
 - [Inkscape]()
 - [Canvas]()
-- 
+
+
+### Media
+
+- [Pexels](https://www.pexels.com/) for the images.
+- [Favicon converter](https://favicon.io/favicon-converter/) to generate favicons from an image we borrowed from [this page](https://www.pinclipart.com/maxpin/oRmTTb/).
 =======
 [This is my live project][def]
 
