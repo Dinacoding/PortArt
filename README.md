@@ -34,27 +34,27 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 ### Wireframes
 - **Home**:
-1. Phone
-2. Tablet
-3. Laptop
+1. ![phone](images/wireframes-phone/landingpage.png)
+2. ![tablet]()
+3. ![laptop]()
 
 - **About**:
-1. Phone
+1. ![phone](images/wireframes-phone/phone-about.png)
 2. Tablet
 3. Laptop
 
 - **Menu**:
-1. Phone
+1. ![phone](images/wireframes-phone/phone-menu.png)
 2. Tablet
 3. Laptop
 
 - **Contact**:
-1. Phone
+1. ![phone](images/wireframes-phone/phone-wireframe.png)
 2. Tablet
 3. Laptop
 
 - **Thank You**
-1. Phone
+1. ![phone](images/wireframes-phone/phone-thank.png)
 2. Tablet
 3. Laptop
 
