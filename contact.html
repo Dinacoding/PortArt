@@ -71,12 +71,12 @@
     <!--Main Section-->
     <main>
         <section>
-            <div class="section-wrapper contact-us" aria-label="">
+            <div class="section-wrapper contact-us" aria-labelledby="Contact Section">
                 <div class="box">
-                    <h2 class="text-body-emphasis" aria-labelledby="">
+                    <h2 class="text-body-emphasis" aria-labelledby="Contact Heading">
                         Come see about us
                     </h2>
-                    <p aria-label="">
+                    <p aria-label="Contact paragraph">
                         We invite you to explore our offerings and discover the passion and craftsmanship that goes into
                         every dish. Whether you're here for a quick bite or a celebratory meal, we invite you to see
                         what makes PortArt truly unique
@@ -102,11 +102,11 @@
                                     <fieldset>
                                         <label for="comment" name="comment">How can I assist you</label>
                                         <br />
-                                        <textarea name="comment" id="comment" rows="6" cols="30">
+                                        <textarea name="comment" id="comment" rows="6" cols="30"  aria-label="Your enquiry">
                       </textarea>
                                         <br />
-                                        <button type="submit">
-                                            <a href="thank.html">Submit</a>
+                                        <button type="submit" aria-label="Submit your enquiry">
+                                            <a href="thank.html" class="btn ">Submit</a>
                                         </button>
                                     </fieldset>
                                 </form>
@@ -122,7 +122,7 @@
                         <div class="col col-12 col-md-6">
                             <div class="card-content">
                                 <h2>Come to visit us Here</h2>
-                                <address id="address-heading">
+                                <address id="address-heading" aria-label="Restaurant address">
                                     <!--code taken from https://www.w3schools.com/tags/tag_address.asp-->
                                     Visit us at:<br>
                                     145 That Road <br>
@@ -135,7 +135,7 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19840.291975140295!2d-0.07864320000000001!3d51.56756445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1731161046397!5m2!1sen!2suk"
                                 width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                referrerpolicy="no-referrer-when-downgrade" aria-label="Google map of PortArt restaurant location"></iframe>
                         </div>
                     </div>
                 </div>
@@ -143,9 +143,10 @@
         </section>
         <section>
             <div class="section-wrapper">
+                <!--Booking form-->
                 <div id="booking-form">
                     <h2>Make your reservation with us</h2>
-                    <form action="thank.html" method="get">
+                    <form action="thank.html" method="get" aria-label="Reservation form">
                         <label for="fname">First name</label>
                         <input type="text" id="fname" name="fname" required />
                         <label for="sname">Surname</label>
@@ -156,15 +157,16 @@
                         <label for="guests">Number of Guests:</label>
                         <input type="number" id="guests" name="guests" min="1" max="10" required />
                         <label for="date">Preferred Date:</label>
-                        <input type="date" id="date" name="date" required />
+                        <input type="date" id="date" name="date" aria-label="Preferred date input" required />
                         <label for="time">Preferred Time Slot:</label>
-                        <input type="time" id="time" name="time" required />
-                        <input type="submit" value="Submit" />
+                        <input type="time" id="time" name="time" aria-label="Preferred time slot input" required />
+                        <input type="submit" value="Submit" aria-label="Submit your reservation" />
                     </form>
                     <div>
                         
                     </div>
                 </div>
+                <!--End of the booking form-->
             </div>
         </section>
     </main>
