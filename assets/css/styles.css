@@ -6,7 +6,6 @@
     /* 100% opacity */
     --lighter-bordeaux: rgba(128, 0, 0, 0.4);
     /* Deep red/bordeaux color */
-
     --warm-beige: rgba(245, 245, 220, 1);
     /* 100% opacity */
     --charcoal-gray: rgba(58, 58, 58, 1);
@@ -27,34 +26,24 @@
     padding: 0;
     text-decoration: none;
 }
-
 body {
     overflow-x: hidden;
 }
-
 #header,
 footer {
     background-color: var(--charcoal-gray);
     width: 100%;
 }
-
-
-
-
 /* Navbar styling*/
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-
 .navbar>a>img {
     margin-left: 3px;
     width: 150px;
 }
-
-
-
 /*btn styling*/
 .nav-btn .btn-style,
 .hidden-menu a,
@@ -65,8 +54,9 @@ footer {
     margin-right: 3px;
     font-weight: 300;
     border-radius: 8px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
+
 .nav-btn .btn-style:hover,
 .hidden-menu a:hover,
 .cta>.btn-style:hover {
@@ -90,6 +80,7 @@ nav {
     display: none;
     /* Initially hidden, shown when toggled */
 }
+
 /* Show nav menu when toggler is checked */
 #nav-toggler:checked~nav {
     display: block;
@@ -115,7 +106,6 @@ nav {
     margin-right: 6px;
     color: var(--bordeaux);
 }
-
 /* Menu list styling */
 #menu {
     letter-spacing: 4px;
@@ -124,7 +114,6 @@ nav {
     /* Slightly larger font */
     display: block;
     background-color: var(--dark-grey);
-    font-family: var(--font--sub-headings);
     font-weight: 500;
     letter-spacing: 8px;
 }
@@ -149,7 +138,6 @@ nav {
     display: none;
     /*hides the last child of the ul*/
 }
-
 /* Link styling within menu items */
 #menu li a {
     text-decoration: none;
@@ -157,11 +145,10 @@ nav {
     font-weight: 700;
     font-size: 120%;
     line-height: 1.5rem;
-    color: var(--warm-beige);
+    color: var(--bordeaux);
     text-align: center;
     font-family: "Gothic A1", sans-serif;
     z-index: 100;
-
 }
 
 /*footer styling*/
@@ -170,15 +157,12 @@ footer {
     background-color: var(--warm-beige);
     width: 100%;
     height: fit-content;
-
 }
 
 .footer-container {
     height: fit-content;
     width: 100%;
     padding: 20px;
-
-
 }
 
 .footer-nav {
@@ -250,20 +234,17 @@ footer p {
 .hero-box {
     position: absolute;
     z-index: 4;
-
 }
 
 .hero-text {
     color: var(--bordeaux);
     font-weight: 600;
     font-family: "Gothic A1", sans-serif;
-
 }
 
 .hero-text h1 {
     font-weight: 900;
     font-size: 200%;
-
 }
 
 p {
@@ -301,8 +282,6 @@ p {
     margin-bottom: 20px;
     font-size: 160%;
     font-family: 'Urbanist', sans-serif;
-
-
 }
 
 .box p {
@@ -355,7 +334,6 @@ p {
     border: 2px solid var(--dark-grey);
     border-radius: 7px;
     text-align: center;
-
 }
 
 .events h3 {
@@ -384,8 +362,6 @@ p {
     margin: 0;
     width: 100%;
     max-height: 300px;
-
-
 }
 
 .card-content {
@@ -417,7 +393,6 @@ p {
 .img-card {
     max-height: 300px;
     width: 100%;
-
 }
 
 /* Container-image Section"*/
@@ -459,7 +434,6 @@ p {
 
 .about-section .col .img-card {
     max-width: 100%;
-
 }
 
 .about-container {
@@ -476,19 +450,16 @@ p {
 /* Menu styling*/
 .menu-section {
     text-align: center;
-
 }
 
 .menu-item h3 {
     font-size: 100%;
     color: var(--bordeaux);
-
 }
 
 .menu-item p {
     color: var(--charcoal-gray);
     font-size: 90%;
-
 }
 
 .description {
@@ -498,58 +469,61 @@ p {
 /* Contact Us Section*/
 
 
-.col iframe{
+.col iframe {
     height: 100%;
     width: 100%;
 }
 
 /* Booking Form*/
-.section-wrapper
-#booking-form{
+.section-wrapper #booking-form {
     width: 100%;
     height: 100%;
     text-align: center;
- }
-
-#booking-form{
-   max-width: 400px;
-   margin:0 auto;
 }
-  .section-wrapper #booking-form h2 {
-    color:var(--bordeaux); /* Bordeaux color */
+
+#booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.section-wrapper #booking-form h2 {
+    color: var(--bordeaux);
+    /* Bordeaux color */
     margin-bottom: 10px;
     font-family: 'Cormorant Garamond', serif;
+}
 
-  }
-  
-  /* Form Label Styling */
-  #booking-form label {
+/* Form Label Styling */
+#booking-form label {
     display: block;
     font-weight: bold;
-    color: #3a3a3a; /* Dark greyish black */
+    color: #3a3a3a;
+    /* Dark greyish black */
     margin-top: 15px;
-  }
-  
-  /* Input Field Styling */
-  #booking-form input[type="text"],
-  #booking-form input[type="email"],
-  #booking-form input[type="number"],
-  #booking-form input[type="date"],
-  #booking-form input[type="time"] {
+}
+
+/* Input Field Styling */
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="number"],
+#booking-form input[type="date"],
+#booking-form input[type="time"] {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid var(--bordeaux); /* Bordeaux border */
+    border: 1px solid var(--bordeaux);
+    /* Bordeaux border */
     border-radius: 4px;
     background-color: var(--warm-beige);
     color: var(--dark-grey);
-  }
-  
-  /* Submit Button Styling */
-  #booking-form input[type="submit"] {
+}
+
+/* Submit Button Styling */
+#booking-form input[type="submit"] {
     width: 100%;
     padding: 12px;
-    background-color: var(--bordeaux); /* Bordeaux background */
+    background-color: var(--bordeaux);
+    /* Bordeaux background */
     color: white;
     font-size: 16px;
     border: none;
@@ -557,11 +531,13 @@ p {
     cursor: pointer;
     margin-top: 20px;
     transition: background-color 0.3s ease;
-  }
-  
-  #booking-form input[type="submit"]:hover {
-    background-color: var(--bordeaux) /* Darker Bordeaux for hover */
-  }
+}
+
+#booking-form input[type="submit"]:hover {
+    background-color: var(--bordeaux)
+        /* Darker Bordeaux for hover */
+}
+
 /* Media queries : tables for larger ( 768px and up)*/
 
 @media screen and (min-width:768px) {
@@ -615,7 +591,6 @@ p {
         margin-bottom: 0;
         background-color: transparent;
         letter-spacing: 6px;
-
     }
 
     #menu>li>a {
@@ -637,7 +612,6 @@ p {
     .hidden-menu a {
         text-align: center;
         padding: 10px;
-
     }
 
     .nav-toggler-label {
@@ -703,8 +677,6 @@ p {
 
     #menu>li .btn {
         border-bottom: 0 !important;
-
-
     }
 
     #hero-section .section-wrapper {
@@ -736,7 +708,6 @@ p {
     .hero-box p {
         font-size: 140%;
         font-weight: 400;
-
     }
 
     /* cta button */
@@ -744,7 +715,6 @@ p {
     .cta {
         padding: 10px;
         z-index: 5;
-
     }
 
     .hero-text,
@@ -765,7 +735,6 @@ p {
         flex-direction: column;
         justify-content: center;
         height: 30vh;
-
     }
 
     .row {
@@ -812,7 +781,6 @@ p {
 
     .events p {
         font-size: 140%;
-
     }
 
     .menu-item h3 {
@@ -829,15 +797,14 @@ p {
 
 @media (min-width: 1200px) {
 
-    #hero-section  {
+    #hero-section {
         height: 80vh;
     }
+
     h1 {
         font-size: 70px;
+    }
 
-    }
-    .box-img video{
-    }
     .section-wrapper .box {
         height: 30vh;
         width: 50%;
@@ -850,7 +817,6 @@ p {
 
     .box p {
         font-size: 120%;
-
     }
 
     .row {
@@ -868,8 +834,6 @@ p {
     .col .card-content {
         margin: 0 40px;
         padding: 100px;
-
-
     }
 
     .card-content h2 {
@@ -885,8 +849,6 @@ p {
         margin-bottom: 20px;
         line-height: 2rem;
         padding: 20px;
-
-
     }
 
     .menu-item h3 {
