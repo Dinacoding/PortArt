@@ -17,6 +17,9 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - Business meetings
 - Venue hiring
 
+
+## User Experience (UX)
+
 ### User Stories
 - I want to feel that my expectaction will be meet
 - Find the form easily
@@ -30,6 +33,27 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ### Wireframes
+- **Home**:
+1. Phone
+2. Tablet
+3. Laptop
+
+- **About**:
+1. Phone
+2. Tablet
+3. Laptop
+
+- **Menu**:
+1. Phone
+2. Tablet
+3. Laptop
+
+- **Contact**:
+1. Phone
+2. Tablet
+3. Laptop
+
+-
 
 
 ## Features
@@ -39,6 +63,8 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Hover effects** on the CTA buttons.
 - **Toggle Button** for responsive mobile approach.
 
+![]
+
 ### Footer
 - **Contact**: An easy access to contact.
 - **About us**: link to pages detailing PortArt's story and philosophy.
@@ -46,7 +72,10 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 ## Page features
 ### Home 
-- **Hero Section**: A video  and a CTA button 
+- **Hero Section**: A video  and a CTA button with a large heading
+- **box
+
+![]
 
 ## Designer Choices
 
