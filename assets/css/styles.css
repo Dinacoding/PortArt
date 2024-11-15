@@ -244,7 +244,7 @@ footer p {
     width: 100%;
     padding: 0;
     position: relative;
-    height: 50vh;
+    height: 60vh;
 }
 
 .hero-box {
@@ -707,8 +707,8 @@ p {
 
     }
 
-    #hero-section  {
-        height: 60vh;
+    #hero-section .section-wrapper {
+        height: 70vh;
     }
 
     /*hero box*/
@@ -717,10 +717,10 @@ p {
         align-self: flex-start;
         flex-direction: column;
         justify-content: center;
-        height: 100%;
         align-items: flex-start;
         width: 48%;
         background-color: var(--dark-grey);
+        height: 100%;
     }
 
     .hero-text {
@@ -764,6 +764,8 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 30vh;
+
     }
 
     .row {
@@ -826,13 +828,18 @@ p {
 /* Media queries : tables for larger (1200px and up)*/
 
 @media (min-width: 1200px) {
+
+    #hero-section  {
+        height: 80vh;
+    }
     h1 {
         font-size: 70px;
 
     }
-    
+    .box-img video{
+    }
     .section-wrapper .box {
-        height: 20vh;
+        height: 30vh;
         width: 50%;
     }
 
