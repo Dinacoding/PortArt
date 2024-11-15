@@ -49,6 +49,14 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 ### Color scheme
 ### Typography
+
+
+## Technology used
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), for structure and content writting.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), for styling and some visual effects.
+- [Bootstrap](https://getbootstrap.com/), help me with the structuration and with the layout planning.
+- **Google Fonts**
+
 =======
 [This is my live project][def]
 
