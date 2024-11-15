@@ -93,10 +93,10 @@ This color palette offers a sophisticated and versatile touch to the project and
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), for structure and content writting.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), for styling and some visual effects.
 - [Bootstrap](https://getbootstrap.com/), help me with the structuration and with the layout planning.
-- [GoogleFonts]()
-- [Inkscape]()
-- [Canvas]()
-- [Balsamiq]()
+- [GoogleFonts](https://fonts.google.com/), use to import the fonts into my project
+- [Inkscape](https://inkscape.org/), to design the logo;
+- [Canvas](https://www.canva.com/en_gb/), use to build the first and play around with the positioning.
+- [Balsamiq](https://balsamiq.com/)
 
 
 
