@@ -40,22 +40,22 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 - **About**:
 1. ![phone](images/wireframes-phone/phone-about.png)
-2. Tablet
+2. ![tablet](images/wireframes-table/tablet-landing.png)
 3. Laptop
 
 - **Menu**:
 1. ![phone](images/wireframes-phone/phone-menu.png)
-2. Tablet
+2. [tablet](images/wireframes-table/tablet-landing.png)
 3. Laptop
 
 - **Contact**:
 1. ![phone](images/wireframes-phone/phone-wireframe.png)
-2. Tablet
+2. [tablet](images/wireframes-table/tablet-landing.png)
 3. Laptop
 
 - **Thank You**
 1. ![phone](images/wireframes-phone/phone-thank.png)
-2. Tablet
+2. [tablet](images/wireframes-table/tablet-landing.png)
 3. Laptop
 
 ## Features
@@ -89,6 +89,9 @@ This color palette offers a sophisticated and versatile touch to the project and
 ### Typography
 
 
+
+
+
 ## Technology used
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), for structure and content writting.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), for styling and some visual effects.
@@ -100,12 +103,41 @@ This color palette offers a sophisticated and versatile touch to the project and
 
 
 
-### Media
+## Media
 
 - [Pexels](https://www.pexels.com/) for the images.
 - [Favicon converter](https://favicon.io/favicon-converter/) to generate favicons from an image we borrowed from [pexels](https://www.pinclipart.com/maxpin/oRmTTb/).
 =======
 
+
+## Media Attributions
+
+We would like to extend our heartfelt gratitude to the photographers who made their work available for free on Pexels. The beauty and professionalism of their images have significantly enhanced the look and feel of this website. 
+
+### Images and Credits
+
+- **Fresh Vegetable Preparation**
+  - Photo by Maarten van den Heuvel: [View on Pexels](https://www.pexels.com/photo/person-holding-sliced-vegetable-2284166/)
+
+- **Restaurant Ambiance**
+  - Photo by Kyle Lui: [View on Pexels](https://www.pexels.com/photo/photography-of-people-inside-a-restaurant-734562/)
+  - Photo by Brett Sayles: [View on Pexels](https://www.pexels.com/photo/charming-outdoor-restaurant-evening-scene-in-boise-28497971/)
+  - Photo by Volkan Vardar: [View on Pexels](https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/)
+
+- **Dishes and Meals**
+  - Fish Salad Dish - Photo by Dana Tentis: [View on Pexels](https://www.pexels.com/photo/fish-salad-dish-262959/)
+  - French Fries - Photo by Sydney Troxell: [View on Pexels](https://www.pexels.com/photo/fries-with-leaves-dish-718742/)
+  - French Macarons - Photo by Brigitte Tohm: [View on Pexels](https://www.pexels.com/photo/french-macarons-in-bowl-239581/)
+  - Chocolate Cupcake - Photo by Max Griss: [View on Pexels](https://www.pexels.com/photo/chocolate-cupcake-with-white-icing-7013451/)
+
+- **Menu and Ingredients**
+  - Empty Clipboard with Fresh Vegetables and Herbs - Photo By Kaboompics.com: [View on Pexels](https://www.pexels.com/photo/empty-clipboard-with-fresh-vegetables-and-herbs-on-table-4033636/)
+
+- **Wine**
+  - Wine Glass - Photo by Aline Aronsky: [View on Pexels](https://www.pexels.com/photo/selected-focus-of-clear-wine-glass-1989164/)
+  - Pouring Wine - Photo by Terje Sollie: [View on Pexels](https://www.pexels.com/photo/person-pouring-wine-on-clear-wine-glass-313715/)
+  - Person Pouring Wine - Photo by Ksenia Chernaya: [View on Pexels](https://www.pexels.com/photo/person-pouring-wine-on-clear-wine-glass-3951670/)
+  - Red Wine Glass - Photo by Posawee Suwannaphati: [View on Pexels](https://www.pexels.com/photo/wine-glass-with-red-wine-391213/)
 ### 
 [This is my live project][def]
 
