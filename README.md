@@ -35,6 +35,8 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 -**Logo**: Represents the Restaurant identity.
 -**Navigation**: Navbar for different pages of the website
 -**Hover effects** on the CTA buttons.
+--**Toggle** for responsive mobile approach.
+
 
 =======
 [This is my live project][def]
