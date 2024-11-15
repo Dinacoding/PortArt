@@ -48,6 +48,7 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 ## Designer Choices
 
 ### Color scheme
+### Typography
 =======
 [This is my live project][def]
 
