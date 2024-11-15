@@ -546,7 +546,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    background: linear-gradient(135deg, var(--warm-beige),var(--bordeaux) );
 }
 
 /* Card Styling */
