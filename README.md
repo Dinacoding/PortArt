@@ -37,7 +37,9 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 -**Hover effects** on the CTA buttons.
 -**Toggle** for responsive mobile approach.
 
-### Main Section 
+### Footer
+
+
 
 =======
 [This is my live project][def]
