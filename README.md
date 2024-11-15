@@ -82,6 +82,7 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 ## Designer Choices
 
 ### Color scheme
+This color palette offers a sophisticated and versatile touch to the project and enhance the design. The bordeaux and a lighter shade provide a rice and elegant aspect while the beige and soft cream bring a sense of calm and neutrality. The charcoal gray and slate gray and the depth and subtle element. All together they create a balanced and harmonious look helping me achieving a polished work.
 
 ### Typography
 
@@ -93,13 +94,17 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - [GoogleFonts]()
 - [Inkscape]()
 - [Canvas]()
+- [Balsamiq]()
+
 
 
 ### Media
 
 - [Pexels](https://www.pexels.com/) for the images.
-- [Favicon converter](https://favicon.io/favicon-converter/) to generate favicons from an image we borrowed from [this page](https://www.pinclipart.com/maxpin/oRmTTb/).
+- [Favicon converter](https://favicon.io/favicon-converter/) to generate favicons from an image we borrowed from [pexels](https://www.pinclipart.com/maxpin/oRmTTb/).
 =======
+
+### 
 [This is my live project][def]
 
 [def]: https://dinacoding.github.io/PortArt/gi
