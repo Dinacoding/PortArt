@@ -500,6 +500,12 @@ p {
     margin-bottom: 8px;
 }
 
+/*Map location*/
+
+.col iframe{
+
+    height:100%;
+}
 
 /* Media queries : tables for larger ( 768px and up)*/
 
