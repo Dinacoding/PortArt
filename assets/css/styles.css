@@ -507,19 +507,14 @@ p {
 
 /* Booking Form*/
 
-#booking-form {
-    padding: 30px;
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+#bookingform{
+    height: 100%;
+
   }
-  
   #booking-form h2 {
     text-align: center;
     color: #800000; /* Bordeaux color */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Cormorant Garamond', serif;
   }
   
@@ -544,7 +539,6 @@ p {
     border-radius: 4px;
     background-color: #f9f9f9;
     color: #3a3a3a;
-    font-size: 16px;
   }
   
   /* Submit Button Styling */
@@ -563,10 +557,11 @@ p {
   
   #booking-form input[type="submit"]:hover {
     background-color: #a00000; /* Darker Bordeaux for hover */
-  }a
+  }
 /* Media queries : tables for larger ( 768px and up)*/
 
 @media screen and (min-width:768px) {
+
     /*header*/
 
     #header {
