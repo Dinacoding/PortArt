@@ -41,22 +41,18 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **About**:
 1. ![phone](images/wireframes-phone/phone-about.png)
 2. ![tablet](images/wireframes-table/tablet-landing.png)
-3. Laptop
 
 - **Menu**:
 1. ![phone](images/wireframes-phone/phone-menu.png)
 2. [tablet](images/wireframes-table/tablet-landing.png)
-3. Laptop
 
 - **Contact**:
 1. ![phone](images/wireframes-phone/phone-wireframe.png)
 2. [tablet](images/wireframes-table/tablet-landing.png)
-3. Laptop
 
 - **Thank You**
 1. ![phone](images/wireframes-phone/phone-thank.png)
 2. [tablet](images/wireframes-table/tablet-landing.png)
-3. Laptop
 
 ## Features
 ### Header
@@ -65,7 +61,7 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Hover effects** on the CTA buttons.
 - **Toggle Button** for responsive mobile approach.
 
-![]
+
 
 ### Footer
 - **Contact**: An easy access to contact.
@@ -76,8 +72,8 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 ### Home 
 - **Hero Section**: A video  and a CTA button with a large heading
 
+- **Contact Form**: In the contact page
 
-![]
 
 ## Designer Choices
 
@@ -88,9 +84,15 @@ This color palette offers a sophisticated and versatile touch to the project and
 
 ### Typography
 
+The PortArt Restaurant website uses a combination of modern and classic fonts to create a refined and welcoming experience. Below are the details of each font used, along with its role and purpose on the site.
 
+- Primary Font - Gothic A1 [Gothic A1](https://fonts.google.com/specimen/Gothic+A1)
 
+- Secondary Font - [Urbanist](https://fonts.google.com/specimen/Urbanist)
 
+- Body Font - [Lato](https://fonts.google.com/specimen/Lato)
+
+- Accent Font - [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)
 
 ## Technology used
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), for structure and content writting.
@@ -112,7 +114,7 @@ This color palette offers a sophisticated and versatile touch to the project and
 
 ## Media Attributions
 
-We would like to extend our heartfelt gratitude to the photographers who made their work available for free on Pexels. The beauty and professionalism of their images have significantly enhanced the look and feel of this website. 
+Cheers to and my gratitude to the photographers who made their work available for free on Pexels, it would have been dreadful.
 
 ### Images and Credits
 
