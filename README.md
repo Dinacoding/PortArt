@@ -31,6 +31,10 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 ### Wireframes
 ## Features
+### Header
+-**Logo**: Represents the Restaurant identity.
+-**Navigation**: Navbar for different sections of the website;
+
 =======
 [This is my live project][def]
 
