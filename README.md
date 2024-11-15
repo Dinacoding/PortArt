@@ -30,6 +30,8 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ### Wireframes
+-**Landingpage**:
+
 ## Features
 ### Header
 -**Logo**: Represents the Restaurant identity.
@@ -45,6 +47,7 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 
 ## Designer Choices
 
+### Color scheme
 =======
 [This is my live project][def]
 

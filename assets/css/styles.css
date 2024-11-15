@@ -10,14 +10,13 @@
     --warm-beige: rgba(245, 245, 220, 1);
     /* 100% opacity */
     --charcoal-gray: rgba(58, 58, 58, 1);
-    /* 90% opacity */
+    /* 100% opacity */
     --soft-cream: rgba(245, 241, 241, 0.7);
-    /* 80% opacity */
+    /* 70% opacity */
     --slate-gray: rgba(138, 133, 133, 0.8);
-    /* 30% opacity */
+    /* 80% opacity */
     --dark-grey: rgba(30, 30, 29, 0.5);
-    /*100% opacity */
-    --mustard: rgba(255, 206, 27, .5);
+    /*5% opacity */
 }
 
 * {
@@ -831,9 +830,9 @@ p {
         font-size: 70px;
 
     }
-
+    
     .section-wrapper .box {
-        height: 40vh;
+        height: 20vh;
         width: 50%;
     }
 
