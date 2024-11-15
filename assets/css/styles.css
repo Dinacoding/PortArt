@@ -475,9 +475,6 @@ p {
     margin: auto 0;
 }
 
-/* Events*/
-
-
 /* Menu styling*/
 .menu-section {
     text-align: center;
@@ -500,11 +497,12 @@ p {
     margin-bottom: 8px;
 }
 
-/*Map location*/
+/* Contact Us Section*/
+
 
 .col iframe{
-
-    height:100%;
+    height: 100%;
+    width: 100%;
 }
 
 /* Media queries : tables for larger ( 768px and up)*/
@@ -700,7 +698,7 @@ p {
     /*Box Container*/
 
     .section-wrapper .box {
-        height: 20vh;
+        height: 30vh;
         width: 50%;
     }
 
