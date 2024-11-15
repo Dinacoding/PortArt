@@ -30,6 +30,7 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ### Wireframes
+## Features
 =======
 [This is my live project][def]
 
