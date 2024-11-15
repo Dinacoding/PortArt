@@ -84,6 +84,37 @@
                 </div>
             </div>
         </section>
+        <section aria-labelledby="address-section">
+            <div class="section-wrapper about-section m-0">
+                <div class="row">
+                    <div class="col col-12 col-md-6 px-0">
+                        <img src="assets/image/hello.jpg" alt="an image with a door sign" class="img-fluid img-card">
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <div class="card-content">
+                            <h2>Message</h2>
+                            <h3 class="card-title">
+                                Would you like to make and enquiry?
+                            </h3>
+                            <br />
+                            <div id="enquiry">
+                                <form action="thank.html" method="get">
+                                    <fieldset>
+                                        <label for="comment" name="comment">How can I assist you</label>
+                                        <br />
+                                        <textarea name="comment" id="comment" rows="6" cols="30">
+                      </textarea>
+                                        <br />
+                                        <button type="submit">
+                                            <a href="thank.html">Submit</a>
+                                        </button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <section>
             <div class="section-wrapper">
                 <div class="container-fluid px-6">
@@ -102,19 +133,62 @@
                         </div>
                         <div class="col col-12 col-md-6 px-0">
                             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19840.291975140295!2d-0.07864320000000001!3d51.56756445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1731161046397!5m2!1sen!2suk"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19840.291975140295!2d-0.07864320000000001!3d51.56756445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1731161046397!5m2!1sen!2suk"
+                                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section>
+            <div class="section-wrapper">
+              <div class="container-fluid px-6">
+                <div class="row">
+                  <div class="col col-12 col-md-6 px-0"></div>
+                  <div class="col col-12 col-md-6 px-0">
+                    <div id="booking-form">
+                      <form action="thank.html" method="get">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" required />
+    
+                        <label for="sname">Surname</label>
+                        <input type="text" id="sname" name="sname" required />
+    
+                        <label for="email">Email Address</label>
+                        <input
+                          class="text-input"
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Enter Your Email"
+                          required
+                        />
+    
+                        <label for="guests">Number of Guests:</label>
+                        <input
+                          type="number"
+                          id="guests"
+                          name="guests"
+                          min="1"
+                          max="10"
+                          required
+                        />
+    
+                        <label for="date">Preferred Date:</label>
+                        <input type="date" id="date" name="date" required />
+    
+                        <label for="time">Preferred Time Slot:</label>
+                        <input type="time" id="time" name="time" required />
+    
+                        <input type="submit" value="Submit" />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
     </main>
     <!--End of the main section-->
     <!--Footer begins-->
