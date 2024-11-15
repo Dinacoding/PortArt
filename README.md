@@ -30,20 +30,23 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ### Wireframes
--**Landingpage**:
+
 
 ## Features
 ### Header
--**Logo**: Represents the Restaurant identity.
--**Navigation**: Navbar for different pages of the website
--**Hover effects** on the CTA buttons.
--**Toggle** for responsive mobile approach.
+- **Logo**: Represents the Restaurant identity.
+- **Navigation**: Navbar for different pages of the website
+- **Hover effects** on the CTA buttons.
+- **Toggle Button** for responsive mobile approach.
 
 ### Footer
--**Contact**: An easy access to contact.
--**About us**: link to pages detailing PortArt's story and philosophy.
---**social links**: Fast access to social media links.
+- **Contact**: An easy access to contact.
+- **About us**: link to pages detailing PortArt's story and philosophy.
+- **social links**: Fast access to social media links.
 
+## Page features
+### Home 
+- **Hero Section**: A video  and a CTA button 
 
 ## Designer Choices
 

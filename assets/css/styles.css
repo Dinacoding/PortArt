@@ -484,6 +484,9 @@ p {
 #booking-form {
     max-width: 400px;
     margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--bordeaux);
 }
 
 .section-wrapper #booking-form h2 {
