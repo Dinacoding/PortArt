@@ -38,8 +38,12 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 -**Toggle** for responsive mobile approach.
 
 ### Footer
+-**Contact**: An easy access to contact.
+-**About us**: link to pages detailing PortArt's story and philosophy.
+--**social links**: Fast access to social media links.
 
 
+## Designer Choices
 
 =======
 [This is my live project][def]
