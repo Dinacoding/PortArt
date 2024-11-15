@@ -23,8 +23,6 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - I wish I could take someone special there today
 - Information should be displayed on the website without the need to call
 
-
-
 ### How will I achieve this 
 - **Layout and media files** Adding engaging graphics and media to convey the identity and menu
 - **Navigation and CTAs buttons** Easy to access buttons for the booking form.

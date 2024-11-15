@@ -625,7 +625,7 @@ p {
 
     /* Logo image size */
     .navbar a img {
-        width: 220px;
+        width: 190px;
         padding-left: 20px;
     }
 
@@ -645,8 +645,8 @@ p {
 
     }
 
-    #hero-section .section-wrapper {
-        height: 70vh;
+    #hero-section  {
+        height: 60vh;
     }
 
     /*hero box*/
