@@ -53,8 +53,10 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 2. Tablet
 3. Laptop
 
--
-
+- **Thank You**
+1. Phone
+2. Tablet
+3. Laptop
 
 ## Features
 ### Header
@@ -87,8 +89,10 @@ PortArt is a restaurant made for people who want  a journey into the heart of ex
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), for structure and content writting.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), for styling and some visual effects.
 - [Bootstrap](https://getbootstrap.com/), help me with the structuration and with the layout planning.
-- **Google Fonts**
-
+- [GoogleFonts]()
+- [Inkscape]()
+- [Canvas]()
+- 
 =======
 [This is my live project][def]
 
