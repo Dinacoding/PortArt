@@ -108,7 +108,7 @@ The PortArt Restaurant website uses a combination of modern and classic fonts to
 ## Media
 
 - [Pexels](https://www.pexels.com/) for the images.
-- [Favicon converter](https://favicon.io/favicon-converter/) to generate favicons from an image we borrowed from [pexels](https://www.pinclipart.com/maxpin/oRmTTb/).
+
 =======
 
 
