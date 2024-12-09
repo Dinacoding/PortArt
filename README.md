@@ -124,7 +124,7 @@ The PortArt Restaurant website uses a combination of modern and classic fonts to
 - [ChatGPT](https://chatgpt.com/), to use it to create content for the website and get me a color palette that would match with bordeaux and grey, to understand the structure of a readme.md and in the end to general code guidelines and best resources.
 - W3school
 - [Flexclip](https://www.flexclip.com/editor/app?id=e82a31633a9afd4158fb152727c086e3) to edit the video and add effects;
-- [GoogleMaps]https://www.google.co.uk/maps/@52.8382004,-2.3278149,6z()
+- [GoogleMaps](https://www.google.co.uk/maps/@52.8382004,-2.3278149,6z)
 
 ## Media
 
