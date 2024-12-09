@@ -42,13 +42,13 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 - **Home**:
 
-1. ![phone](images/wireframes-phone/landingpage.png);
+1. ![phone](images/wireframes-phone/landingpage.png)
 2. ![tablet](images/wireframes-table/tablet-landing.png)
 
 - **About**:
 
 1. ![phone](images/wireframes-phone/phone-about.png)
-2. ![tablet][def2]
+2. ![tablet](images/wireframes-table/tablet-about.png)
 
 - **Menu**:
 
@@ -231,7 +231,7 @@ And now for all the restaurant content creators for the videos, I edited them us
 
 
 
-[This is my live project][def]
+[This is my live project](https://dinacoding.github.io/PortArt/)
 
-[def]: https://dinacoding.github.io/PortArt/gi
+[def]: https://dinacoding.github.io/PortArt/git
 
