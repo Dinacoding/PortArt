@@ -75,7 +75,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **Toggle Button** for responsive mobile approach.
 
 ### Pages layout
-- **hero** ![Hero Page](images/hero-images/5500-dinacoding-portart-wnvyoejzaa0.ws.codeinstitute-ide.net_index.html.pnghero-images)
+- **hero** ![Hero Page](images/hero-images/5500-dinacoding-portart-wnvyoejzaa0.ws.codeinstitute-ide.net_index.html.png)
 ### Footer
 
 - **Contact**: An easy access to contact.
