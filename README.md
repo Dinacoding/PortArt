@@ -53,17 +53,17 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **Menu**:
 
 1. ![phone](images/wireframes-phone/phone-menu.png)
-2. ![tablet](images/wireframes-table/tablet-landing.png)
+2. ![tablet](images/wireframes-table/tablet-menu.png)
 
 - **Contact**:
 
 1. ![phone](images/wireframes-phone/phone-wireframe.png)
-2. ![tablet](images/wireframes-table/tablet-landing.png)
+2. ![tablet](images/wireframes-table/tablet-contact.png)
 
 - **Thank You**
 
 1. ![phone](images/wireframes-phone/phone-thank.png)
-2. ![tablet](images/wireframes-table/tablet-landing.png)
+2. ![tablet](images/wireframes-table/tablet-thank.png)
 
 ## Features
 
