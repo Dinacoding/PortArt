@@ -65,7 +65,18 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 1. ![phone](images/wireframes-phone/phone-thank.png)
 2. ![tablet](images/wireframes-table/tablet-thank.png)
 
-## Features
+### Screenshots 
+ 
+- **Home Page**
+   1. ![phone](images/phone-PortArt-screenshots/phone-home.png)
+   2. ![tablet](images/tablet-PortArt-screenshots/phone-about.png)
+   3. ![laptop](images/laptop-PortArt-screenshots/phone-menu.png)
+- **About Page**
+
+
+![table]
+
+## Featurest
 
 ### Header
 

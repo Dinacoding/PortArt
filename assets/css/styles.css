@@ -522,8 +522,8 @@ p {
 }
 
 /* Submit Button Styling */
-#booking-form input[type="submit"] {
-    width: 100%;
+#booking-form input[type="submit"], #enquiry input[type="submit"] {
+    width: 60%;
     padding: 12px;
     background-color: var(--bordeaux);
     /* Bordeaux background */
