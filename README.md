@@ -70,24 +70,24 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **Home Page**
    1. ![phone](images/phone-PortArt-screenshots/phone-home.png)
    2. ![tablet](images/tablet-PortArt-screenshots/table-home.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-about.png)
+   3. ![laptop](images/laptop-PortArt-screenshots/laptop-home.png)
 - **About Page**
    1. ![phone](images/phone-PortArt-screenshots/phone-about.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-about.png)
-   3. ![laptop]
+   3. ![laptop](images/laptop-PortArt-screenshots/laptop-about.png)
 - **Menu Page**
    1. ![phone](images/phone-PortArt-screenshots/phone-menu.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-menu.png)
-   3. ![laptop]
+   3. ![laptop](images/laptop-PortArt-screenshots/laptop-menu.png)
 - **Contact Page**
    1. ![phone](images/phone-PortArt-screenshots/phone.contact.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-contact.png)
-   3. ![laptop]
+   3. ![laptop](images/laptop-PortArt-screenshots/laptop-contact.png)
 
 - **Thank you** 
    1. ![phone](images/phone-PortArt-screenshots/phone-thank.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-thank.png)
-   3. ![laptop]
+   3. ![laptop](images/laptop-PortArt-screenshots/laptop-thank.png)
 
 ## Featurest
 
