@@ -703,8 +703,6 @@ p {
 
     /* Logo image size */
     .navbar a img {
-        width: 300px;
-        height: 100px;
         padding-left: 20px;
     }
     
@@ -842,7 +840,7 @@ p {
 @media (min-width: 1200px) {
 
     #menu{
-        height: 150px;
+        height: 100px;
         align-items: center;
         gap: 10px;
     }
