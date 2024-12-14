@@ -42,28 +42,28 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 - **Home**:
 
-1. ![phone](images/wireframes-phone/landingpage.png)
-2. ![tablet](images/wireframes-table/tablet-landing.png)
+1. [phone](images/wireframes-phone/landingpage.png)
+2. [tablet](images/wireframes-table/tablet-landing.png)
 
 - **About**:
 
-1. ![phone](images/wireframes-phone/phone-about.png)
-2. ![tablet](images/wireframes-table/tablet-about.png)
+1. [phone](images/wireframes-phone/phone-about.png)
+2. [tablet](images/wireframes-table/tablet-about.png)
 
 - **Menu**:
 
-1. ![phone](images/wireframes-phone/phone-menu.png)
-2. ![tablet](images/wireframes-table/tablet-menu.png)
+1. [phone](images/wireframes-phone/phone-menu.png)
+2. [tablet](images/wireframes-table/tablet-menu.png)
 
 - **Contact**:
 
-1. ![phone](images/wireframes-phone/phone-wireframe.png)
-2. ![tablet](images/wireframes-table/tablet-contact.png)
+1. [phone](images/wireframes-phone/phone-wireframe.png)
+2. [tablet](images/wireframes-table/tablet-contact.png)
 
 - **Thank You**
 
-1. ![phone](images/wireframes-phone/phone-thank.png)
-2. ![tablet](images/wireframes-table/tablet-thank.png)
+1. [phone](images/wireframes-phone/phone-thank.png)
+2. [tablet](images/wireframes-table/tablet-thank.png)
 
 ### Screenshots 
  
@@ -72,22 +72,22 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
    2. [tablet](images/tablet-PortArt-screenshots/table-home.png)
    3. [laptop](images/laptop-PortArt-screenshots/laptop-home.png)
 - **About Page**
-   1. ![phone](images/phone-PortArt-screenshots/phone-about.png)
-   2. ![tablet](images/tablet-PortArt-screenshots/tablet-about.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-about.png)
+   1. [phone](images/phone-PortArt-screenshots/phone-about.png)
+   2. [tablet](images/tablet-PortArt-screenshots/tablet-about.png)
+   3. [laptop](images/laptop-PortArt-screenshots/laptop-about.png)
 - **Menu Page**
-   1. ![phone](images/phone-PortArt-screenshots/phone-menu.png)
-   2. ![tablet](images/tablet-PortArt-screenshots/tablet-menu.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-menu.png)
+   1. [phone](images/phone-PortArt-screenshots/phone-menu.png)
+   2. [tablet](images/tablet-PortArt-screenshots/tablet-menu.png)
+   3. [laptop](images/laptop-PortArt-screenshots/laptop-menu.png)
 - **Contact Page**
    1. [phone](images/phone-PortArt-screenshots/phone.contact.png)
-   2. ![tablet](images/tablet-PortArt-screenshots/tablet-contact.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-contact.png)
+   2. [tablet](images/tablet-PortArt-screenshots/tablet-contact.png)
+   3. [laptop](images/laptop-PortArt-screenshots/laptop-contact.png)
 
 - **Thank you** 
-   1. ![phone](images/phone-PortArt-screenshots/phone-thank.png)
-   2. ![tablet](images/tablet-PortArt-screenshots/tablet-thank.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-thank.png)
+   1. [phone](images/phone-PortArt-screenshots/phone-thank.png)
+   2. [tablet](images/tablet-PortArt-screenshots/tablet-thank.png)
+   3. [laptop](images/laptop-PortArt-screenshots/laptop-thank.png)
 
 ## Featurest
 
