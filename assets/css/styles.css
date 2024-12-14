@@ -8,7 +8,7 @@
     /* Deep red/bordeaux color */
     --warm-beige: rgba(245, 245, 220, 1);
     /* 100% opacity */
-    --charcoal-gray: rgba(58, 58, 58);
+    --charcoal-gray: rgba(58, 58, 58, 0.7);
     /* 100% opacity */
     --soft-cream: rgba(245, 241, 241, 0.7);
     /* 70% opacity */
@@ -285,7 +285,7 @@ p {
 }
 
 .box p {
-    color: (var(--charcoal-gray));
+    color: var(--charcoal-gray);
     font-size: 120%;
     font-family: 'Lato', sans-serif;
 }
@@ -703,13 +703,15 @@ p {
 
     /* Logo image size */
     .navbar a img {
-        width: 190px;
+        width: 300px;
+        height: 100px;
         padding-left: 20px;
     }
-
+    
     /*Navbar*/
     #menu li a {
         font-size: 140%;
+
     }
 
     #menu>li a:hover {
@@ -817,7 +819,7 @@ p {
     }
 
     .events {
-        display: row;
+        display: inline;
         width: 30%;
     }
 
@@ -839,6 +841,14 @@ p {
 
 @media (min-width: 1200px) {
 
+    #menu{
+        height: 150px;
+        align-items: center;
+        gap: 10px;
+    }
+    #menu li a{
+        margin: 0;
+    }
     #hero-section {
         height: 80vh;
     }

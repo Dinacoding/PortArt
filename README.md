@@ -121,11 +121,10 @@ The PortArt Restaurant website uses a combination of modern and classic fonts to
 - [Inkscape](https://inkscape.org/), to design the logo;
 - [Canvas](https://www.canva.com/en_gb/), use to build the first and play around with the positioning;
 - [Balsamiq](https://balsamiq.com/), used it to wireframe the webpages;
-- [ChatGPT](https://chatgpt.com/), to use it to create content for the website and get me a color palette that would match with bordeaux and grey, to understand the structure of a readme.md and in the end to general code guidelines and best resources.
-- W3school
+- [ChatGPT](https://chatgpt.com/), to use it to create content for the website and get me a color palette that would match with bordeaux and grey, to understand the structure of a readme.md and in the end to general code guidelines and best resources;
+- [W3school] (https://www.w3schools.com/) to review some concepts about code;
 - [Flexclip](https://www.flexclip.com/editor/app?id=e82a31633a9afd4158fb152727c086e3) to edit the video and add effects;
-- [GoogleMaps](https://www.google.co.uk/maps/@52.8382004,-2.3278149,6z)
-
+- [GoogleMaps](https://www.google.co.uk/maps/@52.8382004,-2.3278149,6z) for the iframe tag on the contact pages;
 ## Media
 
 - [Pexels](https://www.pexels.com/) for the images.
@@ -214,6 +213,7 @@ And now for all the restaurant content creators for the videos, I edited them us
    - **Video by**: [cottonbro studio](https://www.pexels.com/@cottonbro/)
    - **Source**: [Pexels](https://www.pexels.com/video/a-person-taking-photo-of-a-plated-dish-using-a-smart-phone-3296572/)
 
+## Testing
 
 ## Features Left to Implement
 
