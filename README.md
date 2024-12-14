@@ -68,9 +68,9 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 ### Screenshots 
  
 - **Home Page**
-   1. ![phone](images/phone-PortArt-screenshots/phone-home.png)
-   2. ![tablet](images/tablet-PortArt-screenshots/table-home.png)
-   3. ![laptop](images/laptop-PortArt-screenshots/laptop-home.png)
+   1. [phone](images/phone-PortArt-screenshots/phone-home.png)
+   2. [tablet](images/tablet-PortArt-screenshots/table-home.png)
+   3. [laptop](images/laptop-PortArt-screenshots/laptop-home.png)
 - **About Page**
    1. ![phone](images/phone-PortArt-screenshots/phone-about.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-about.png)
@@ -80,7 +80,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-menu.png)
    3. ![laptop](images/laptop-PortArt-screenshots/laptop-menu.png)
 - **Contact Page**
-   1. ![phone](images/phone-PortArt-screenshots/phone.contact.png)
+   1. [phone](images/phone-PortArt-screenshots/phone.contact.png)
    2. ![tablet](images/tablet-PortArt-screenshots/tablet-contact.png)
    3. ![laptop](images/laptop-PortArt-screenshots/laptop-contact.png)
 
@@ -94,12 +94,12 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 ### Header
 
 - **Logo**: Represents the Restaurant identity.
+
 - **Navigation**: Navbar for different pages of the website
 - **Hover effects** on the CTA buttons.
 - **Toggle Button** for responsive mobile approach.
 
-### Pages layout
-- **hero** ![Hero Page](images/hero-images/5500-dinacoding-portart-wnvyoejzaa0.ws.codeinstitute-ide.net_index.html.png)
+
 ### Footer
 
 - **Contact**: An easy access to contact.
