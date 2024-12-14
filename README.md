@@ -2,7 +2,7 @@
 
 ## About
 
-PortArt is a restaurant made for people who want a journey into the heart of extraordinary flavours. It is a branding website that brings the essence and unique experience that casual dining can bring. The objective of the PortArt Restaurant is to provide to the user a clear vision of what the brand PortArt is and develop a sense of trust, aiming to get them as customers and make a reservation.[This is my live link](https://dinacoding.github.io/PortArt/)
+PortArt is a restaurant made for people who want a journey into the heart of extraordinary flavours. It is a branding website that brings the essence and unique experience that casual dining can bring. The objective of the PortArt is and develop a sense of trust, aiming to get them as regular customers and attract new customers to make reservation.[This is my live link](https://dinacoding.github.io/PortArt/)
 
 ## Planning
 
@@ -15,10 +15,10 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ### Target Audience
 
-- Couples celebrating special dates
-- Digital influencers
-- Group Bookings
-- Business meetings
+- Food Enthusiasts and Connoisseurs
+- Couples and Romantic Diners
+- Business Professionals
+- Local Community Members
 - Venue hiring
 
 ## User Experience (UX)
@@ -89,7 +89,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
    2. [tablet](images/tablet-PortArt-screenshots/tablet-thank.png)
    3. [laptop](images/laptop-PortArt-screenshots/laptop-thank.png)
 
-## Featurest
+## Features
 
 ### Header
 
@@ -237,7 +237,16 @@ And now for all the restaurant content creators for the videos, I edited them us
    - **Video by**: [cottonbro studio](https://www.pexels.com/@cottonbro/)
    - **Source**: [Pexels](https://www.pexels.com/video/a-person-taking-photo-of-a-plated-dish-using-a-smart-phone-3296572/)
 
-## Testing
+## Code Validator
+
+### HTML validator 
+- []
+
+### CSS validator
+- []
+
+### LightHouse 
+-
 
 ## Features Left to Implement
 
