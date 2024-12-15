@@ -6,17 +6,9 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ## Planning
 
-### Sitemap Outline
-- 
-  1. Home
-  2. About
-  3. Menu
-  4. Contact
-  5. Thank You
-
 ### Logo
 
-- [Logo](documentation/logo.png)
+- ![Logo](documentation/logo.png)
 
 ### Set Aims
 
@@ -49,6 +41,13 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **Navigation and CTAs buttons** Easy to access buttons for the booking form.
 - **Clear pieces of information** Organise a multipage layout to guide users with through headings and prioritise the content with colors for more important content.
 - **Footer links** Social links and navigation links to enhance accessibility
+
+### Sitemap Outline
+1. Home
+2. About
+3. Menu
+4. Contact
+5. Thank You
 
 
 ### Wireframes
@@ -267,8 +266,28 @@ And now for all the restaurant content creators for the videos, I edited them us
 ## Testing
 
 ### Lighthouse 
--[Phone] ()
--[Desktop]()
+**Home**
+- [Phone](lighthouse/sm-home-testing.png)
+- [Desktop](lighthouse/lg-home-testing.png)
+
+**About**
+- [Phone](lighthouse/sm-about-testing.png)
+- [Desktop](lighthouse/lg-about-testing.png)
+
+**Menu**
+- [Phone](lighthouse/sm-menu-testing.png)
+- [Desktop](lighthouse/lg-menu-testing.png)
+
+**Contact**
+- [Phone](lighthouse/sm-contact-testing.png)
+- [Desktop](lighthouse/lg-contact-testing.png)
+
+**Thank You**
+- [Phone](lighthouse/sm-thank-testing.png)
+- [Desktop](lighthouse/lg-thank-testing.png)
+
+
+This structure provides clear differentiation for phone and desktop testing for each section.
 
 ## Features Left to Implement
 
