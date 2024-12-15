@@ -297,7 +297,7 @@ And now for all the restaurant content creators for the videos, I edited them us
 - [Desktop](lighthouse/lg-thank-testing.png)
 
 
-This structure provides clear differentiation for phone and desktop testing for each section.
+This structure provides clear differentiation for phone and desktop testing for each section and the website it is responsive in Mozilla, Microsoft Edge and Chrome
 
 ## Features Left to Implement
 
@@ -307,7 +307,8 @@ This structure provides clear differentiation for phone and desktop testing for 
 ## Future improvements or enhancements 
 - Colaborate with designers and implement in order to bring the max potential of the website design
 - Enchance overall the website performance and ratings
-- Have more interactive elements present without sacrificing the results displayed on (##Testing##)
+
+
 
 
 
