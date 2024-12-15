@@ -265,28 +265,29 @@ And now for all the restaurant content creators for the videos, I edited them us
 
 - The following code represents a footer section of a webpage. It includes a navigation menu, some text, and social media links. [Reed](https://www.reed.co.uk/courses/course-player/build-amazing-websites-w-html-css-sass-javascript-more/17-creating-the-footer/315607/24319**/)
 
-<div class="footer-container">
-  <div class="footer-nav" role="contentinfo">
-    <!-- Footer Navigation Links -->
-    <ul class="links">
-      <li><a href="about.html" aria-label="About Us link">About Us</a></li>
-      <li><a href="contact.html" aria-label="Contact link">Contact</a></li>
-      <li><a href="menu.html" aria-label="Menu link">Menu</a></li>
-    </ul>
-    
-    <!-- Footer Text -->
-    <div>
-      <p>Dinacoding Produced this website</p>
+<<footer>
+    <div class="footer-container">
+      <div class="footer-nav" role="contentinfo">
+        <ul class="links">
+          <li><a href="about.html" aria-label="About Us link">About Us</a></li>
+          <li><a href="contact.html" aria-label="Contact link">Contact</a></li>
+          <li><a href="menu.html" aria-label="Menu link">Menu</a></li>
+        </ul>
+        <div>
+          <p>Dinacoding Produced this website</p>
+        </div>
+        <ul class="social-link">
+          <li><a href="https://www.facebook.com/" target="_blank" aria-label="Open Facebook (opens in a new tab)"><i
+                class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li><a href="https://business.google.com/reviews" target="_blank" aria-label="Opens on Google reviews"><i
+                class="fa-brands fa-google"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" aria-label="Open Instagram (opens in a new tab)"><i
+                class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
-    
-    <!-- Social Media Links -->
-    <ul class="social-link">
-      <li><a href="https://www.facebook.com/" target="_blank" aria-label="Open Facebook (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
-      <li><a href="https://business.google.com/reviews" target="_blank" aria-label="Opens on Google reviews"><i class="fa-brands fa-google"></i></a></li>
-      <li><a href="https://www.instagram.com/" target="_blank" aria-label="Open Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-    </ul>
-  </div>
-</div>
+  </footer>
 
 ## Code Validator
 
