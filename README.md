@@ -6,6 +6,18 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ## Planning
 
+### Sitemap Outline
+- 
+  1. Home
+  2. About
+  3. Menu
+  4. Contact
+  5. Thank You
+
+### Logo
+
+- [Logo](documentation/logo.png)
+
 ### Set Aims
 
 1. Capture the attention of the user with high quality images and engaging content.
@@ -37,6 +49,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **Navigation and CTAs buttons** Easy to access buttons for the booking form.
 - **Clear pieces of information** Organise a multipage layout to guide users with through headings and prioritise the content with colors for more important content.
 - **Footer links** Social links and navigation links to enhance accessibility
+
 
 ### Wireframes
 
@@ -106,15 +119,17 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 - **About us**: link to pages detailing PortArt's story and philosophy.
 - **social links**: Fast access to social media links.
 
-## Page features
+## Features
 
-[Hero]
-
-### Home
+### Website features
 
 - **Hero Section**: A video and a CTA button with a large heading
 
 - **Contact Form**: In the contact page
+
+- **Links to another  pages**: Internal pages and external pages
+
+- **Icons to social media profiles**: On the footer
 
 ## Designer Choices
 
@@ -240,18 +255,24 @@ And now for all the restaurant content creators for the videos, I edited them us
 ## Code Validator
 
 ### HTML validator 
-- []
+- [Home](validator/w3c-home.png)
+- [About](validator/w3c-about.png)
+- [Menu](validator/w3c-menu.png)
+- [Contact](validator/w3c-contact.png)
+- [Thank](validator/w3c-thank.png)
 
 ### CSS validator
-- []
+- [CSS](validator/w3c-css.png)
 
-### LightHouse 
--
+## Testing
+
+### Lighthouse 
+-[Phone] ()
+-[Desktop]()
 
 ## Features Left to Implement
 
 - Create a venue hiring section
-- Change the last picture at the about section
 - Style the input submit button on the first form on the contact.html file 
 
 ## Future improvements or enhancements 
