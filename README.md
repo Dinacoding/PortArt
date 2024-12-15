@@ -251,6 +251,43 @@ And now for all the restaurant content creators for the videos, I edited them us
    - **Video by**: [cottonbro studio](https://www.pexels.com/@cottonbro/)
    - **Source**: [Pexels](https://www.pexels.com/video/a-person-taking-photo-of-a-plated-dish-using-a-smart-phone-3296572/)
 
+### Code references
+
+- The following code snippet demonstrates the use of the `<address>` HTML tag to display contact information. This code was adapted from [W3Schools](https://www.w3schools.com/tags/tag_address.asp).
+
+<address id="address-heading">
+    Visit us at:<br>
+    145 That Road<br>
+    N1 0ZZ<br>
+    London, United Kingdom
+</address>
+
+
+- The following code represents a footer section of a webpage. It includes a navigation menu, some text, and social media links. [Reed](https://www.reed.co.uk/courses/course-player/build-amazing-websites-w-html-css-sass-javascript-more/17-creating-the-footer/315607/24319**/)
+
+<div class="footer-container">
+  <div class="footer-nav" role="contentinfo">
+    <!-- Footer Navigation Links -->
+    <ul class="links">
+      <li><a href="about.html" aria-label="About Us link">About Us</a></li>
+      <li><a href="contact.html" aria-label="Contact link">Contact</a></li>
+      <li><a href="menu.html" aria-label="Menu link">Menu</a></li>
+    </ul>
+    
+    <!-- Footer Text -->
+    <div>
+      <p>Dinacoding Produced this website</p>
+    </div>
+    
+    <!-- Social Media Links -->
+    <ul class="social-link">
+      <li><a href="https://www.facebook.com/" target="_blank" aria-label="Open Facebook (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="https://business.google.com/reviews" target="_blank" aria-label="Opens on Google reviews"><i class="fa-brands fa-google"></i></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" aria-label="Open Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</div>
+
 ## Code Validator
 
 ### HTML validator 
