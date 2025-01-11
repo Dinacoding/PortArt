@@ -299,6 +299,17 @@ And now for all the restaurant content creators for the videos, I edited them us
 
 This structure provides clear differentiation for phone and desktop testing for each section and the website it is responsive in Mozilla, Microsoft Edge and Chrome
 
+
+## Functionality testing 
+
+| Description of Test      | Passed (Yes/No) | Notes or Comments            |
+|--------------------------|-----------------|------------------------------|
+| Logo returns to the homepage | Yes             | Everything worked as expected |
+| Navbar opens the respective page | Yes         | Issue encountered during step 2 |
+| Hover effect on the Navbar Links | Yes             | Works fine under all conditions |
+
+
+
 ## Features Left to Implement
 
 - Create a venue hiring section
