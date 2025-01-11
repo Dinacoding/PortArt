@@ -262,51 +262,39 @@ And now for all the restaurant content creators for the videos, I edited them us
 ![img](documentation/footer-ref.png)
 
 ## Code Validator
-| Page   | Screenshot  |
-|--------|-------------|
-| [Home](validator/w3c-home.png) | ![Home](validator/w3c-home.png) |
-| [About](validator/w3c-about.png) | ![About](validator/w3c-about.png) |
-| [Menu](validator/w3c-menu.png) | ![Menu](validator/w3c-menu.png) |
-| [Contact](validator/w3c-contact.png) | ![Contact](validator/w3c-contact.png) |
-| [Thank You](validator/w3c-thank.png) | ![Thank You](validator/w3c-thank.png) |
 
-### CSS Validator 
-| Page   | Screenshot  |
-|--------|-------------|
-| [CSS](validator/w3c-css.png) | ![CSS](validator/w3c-css.png) |
+### HTML validator 
+- [Home](validator/w3c-home.png)
+- [About](validator/w3c-about.png)
+- [Menu](validator/w3c-menu.png)
+- [Contact](validator/w3c-contact.png)
+- [Thank](validator/w3c-thank.png)
+
+### CSS validator
+- [CSS](validator/w3c-css.png)
 
 ## Testing
 
 ### Lighthouse 
 **Home**
-| Device  | Screenshot  |
-|---------|-------------|
-| [Phone](lighthouse/sm-home-testing.png) | ![Phone](lighthouse/sm-home-testing.png) |
-| [Desktop](lighthouse/lg-home-testing.png) | ![Desktop](lighthouse/lg-home-testing.png) |
+- [Phone](lighthouse/sm-home-testing.png)
+- [Desktop](lighthouse/lg-home-testing.png)
 
 **About**
-| Device  | Screenshot  |
-|---------|-------------|
-| [Phone](lighthouse/sm-about-testing.png) | ![Phone](lighthouse/sm-about-testing.png) |
-| [Desktop](lighthouse/lg-about-testing.png) | ![Desktop](lighthouse/lg-about-testing.png) |
+- [Phone](lighthouse/sm-about-testing.png)
+- [Desktop](lighthouse/lg-about-testing.png)
 
 **Menu**
-| Device  | Screenshot  |
-|---------|-------------|
-| [Phone](lighthouse/sm-menu-testing.png) | ![Phone](lighthouse/sm-menu-testing.png) |
-| [Desktop](lighthouse/lg-menu-testing.png) | ![Desktop](lighthouse/lg-menu-testing.png) |
+- [Phone](lighthouse/sm-menu-testing.png)
+- [Desktop](lighthouse/lg-menu-testing.png)
 
 **Contact**
-| Device  | Screenshot  |
-|---------|-------------|
-| [Phone](lighthouse/sm-contact-testing.png) | ![Phone](lighthouse/sm-contact-testing.png) |
-| [Desktop](lighthouse/lg-contact-testing.png) | ![Desktop](lighthouse/lg-contact-testing.png) |
+- [Phone](lighthouse/sm-contact-testing.png)
+- [Desktop](lighthouse/lg-contact-testing.png)
 
 **Thank You**
-| Device  | Screenshot  |
-|---------|-------------|
-| [Phone](lighthouse/sm-thank-testing.png) | ![Phone](lighthouse/sm-thank-testing.png) |
-| [Desktop](lighthouse/lg-thank-testing.png) | ![Desktop](lighthouse/lg-thank-testing.png) |
+- [Phone](lighthouse/sm-thank-testing.png)
+- [Desktop](lighthouse/lg-thank-testing.png)
 
 
 This structure provides clear differentiation for phone and desktop testing for each section and the website it is responsive in Mozilla, Microsoft Edge and Chrome
