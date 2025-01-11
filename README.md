@@ -6,6 +6,11 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ## Planning
 
+- This mind map is the foundation for my "PortArt" restaurant website. I'm using it to visualize the entire user journey, from the moment someone lands on the homepage to when they make a reservation or explore our menu. The "PortArt," branches out into key sections like "About Us," "Menu," "Contact," and "Visit us". Each branch further subdivides into specific pages, considering factors like user flow and ease of navigation. For example, under "Menu," I've mapped out subsections for "starter," "Mains" and "Desserts". This mind map ensures a well-organized and intuitive website structure, making it easy for our guests to find the information they need and ultimately, choose to dine with PortArt.
+Also how did I prioritise my workload and workflow.
+
+- ![FlowChart](documentation/flowchart.png)
+
 ### Logo
 
 - ![Logo](documentation/logo.png)
