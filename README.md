@@ -10,7 +10,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 - ![Logo](documentation/logo.png)
 
-### Set Aims
+### Set Goals
 
 1. Capture the attention of the user with high quality images and engaging content.
 2. Make it simple the reservation process, making it easy for users to share the details
@@ -19,7 +19,7 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ### Target Audience
 
-- Food Enthusiasts and Connoisseurs
+- Food Enthusiasts & Connoisseurs
 - Couples and Romantic Diners
 - Business Professionals
 - Local Community Members
@@ -29,17 +29,17 @@ PortArt is a restaurant made for people who want a journey into the heart of ext
 
 ### User Stories
 
-- I want to feel that my expectaction will be meet
-- Find the form easily
-- I wish I could take someone special there today
-- Information should be displayed on the website without the need to call
-- Help the business to contact the customers and guide them to
+- As a user, I want to feel that my expectaction will be meet.
+- As a user, I want to have clear and updated information about the restaurant and fil the form booking form easily.
+- As a user, I want to take someone special and with a unique style.
+- As a user, I want to use the website without the need to call the restaurant.
+
 
 ### How will I achieve this
 
 - **Layout and media files** Adding engaging graphics and media to convey the identity and menu
 - **Navigation and CTAs buttons** Easy to access buttons for the booking form.
-- **Clear pieces of information** Organise a multipage layout to guide users with through headings and prioritise the content with colors for more important content.
+- **Clear pieces of information** Organise a multi=page layout to guide users through headings and prioritise the content with colors for more important content.
 - **Footer links** Social links and navigation links to enhance accessibility
 
 ### Sitemap Outline
@@ -172,7 +172,9 @@ The PortArt Restaurant website uses a combination of modern and classic fonts to
 
 ## Media Attributions
 
-Cheers to and my gratitude to the photographers who made their work available for free on Pexels, it would have been dreadful without you!
+My sincere gratitude to the photographers who made their work available for free on Pexels. It wouldn't have been possible without you!The following images and videos are used under the Creative Commons license or with permission:
+
+
 
 ### Images and Credits
 
