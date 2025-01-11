@@ -305,8 +305,10 @@ This structure provides clear differentiation for phone and desktop testing for 
 | Description of Test      | Passed (Yes/No) | Notes or Comments            |
 |--------------------------|-----------------|------------------------------|
 | Logo returns to the homepage | Yes             | Everything worked as expected |
-| Navbar opens the respective page | Yes         | Issue encountered during step 2 |
+| Navbar opens the respective page | Yes         | It didn't show any major issues |
 | Hover effect on the Navbar Links | Yes             | Works fine under all conditions |
+| Resposive and Rescalabe Images | Yes           | Good resolution and enhances to different screensizes|
+| Test Bootstrap grid system functionality | Yes | Layout remains intact at all breakpoints (desktop, tablet, and mobile).  |
 
 
 
