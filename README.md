@@ -302,38 +302,35 @@ This structure provides clear differentiation for phone and desktop testing for 
 
 ## Functionality testing 
 
-| Description of Test      | Passed (Yes/No) | Notes or Comments            |
-|--------------------------|-----------------|------------------------------|
-| Meta Tags are descriptive and they are present in every file page              | Yes             | They are prensent and cohesive.                         |
+| **Description of Test**                                         | **Passed (Yes/No)** | **Notes or Comments**                                                       |
+|------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------|
+| Meta Tags are descriptive and they are present in every file page| Yes                 | They are present and cohesive.                                              |
+| Logo returns to the homepage                                     | Yes                 | Everything worked as expected.                                              |
+| Navbar opens the respective page                                 | Yes                 | It didn't show any major issues.                                           |
+| Hover effect on the Navbar Links                                 | Yes                 | Works fine under all conditions.                                           |
+| Responsive and Rescalable Images                                 | Yes                 | Good resolution and adapts to different screen sizes.                       |
+| Test Bootstrap grid system functionality                         | Yes                 | Layout remains intact at all breakpoints (desktop, tablet, and mobile).     |
+| Test navigation bar toggle functionality                         | Yes                 | Hamburger menu opens and closes on mobile devices.                          |
+| Verify footer links                                              | Yes                 | Footer links redirect to the correct pages and social media platforms.      |
+| Test cross-browser compatibility                                 | Yes                 | Verified on Chrome, Safari, Edge, and Firefox without issues.               |
+| Test video autoplay and controls functionality                   | Yes                 | Video auto-plays, and controls work as expected.                            |
+| Ensure video has an accessible fallback text                     | Yes                 | Fallback text is provided for unsupported browsers.                         |
+| Check favicon display in browser tabs                            | Yes                 | All favicon sizes load properly across multiple browsers.                   |
+| Verify SEO meta tags for accuracy                                | Yes                 | Meta tags (description, keywords) are descriptive and relevant.             |
+| Check social media links                                         | Yes                 | Links open respective social platforms in a new tab.                        |
+| Ensure copyright text displays correctly                         | Yes                 | Footer includes "Dinacoding Produced this website" text.                    |
+| Test call-to-action button functionality                         | Yes                 | Button redirects to `menu.html`.                                            |
+| Test call-to-action button functionality                         | Yes                 | Button redirects to `contact.html`.                                         |
+| Verify semantic HTML usage                                       | Yes                 | Sections and content are wrapped in semantic `<section>` and `<div>` tags. |
+| Ensure all external resources load correctly                     | Yes                 | Bootstrap, FontAwesome, and custom CSS/JS load without issues.              |
+| Test performance using Google Lighthouse                         | Yes                 | Performance score is above 70; need to optimize images and reduce blocking resources. |
+| Ensure text and image alignment                                  | Yes                 | Text aligns correctly with corresponding images across breakpoints.         |
+| Check responsiveness of section                                  | Yes                 | Layout adjusts seamlessly across different screen sizes.                    |
+| A form for users to make an enquiry, asking for their comment or question. | Yes           | Test form submission to ensure it redirects to the "thank.html" page. Test textarea functionality. |
+| Displays the restaurant address along with an embedded Google Map of the location. | Yes | Test the map display and verify the address details for accuracy.            |
+| A reservation form to make bookings, collecting name, email, guest count, date, and time. | Yes | Test form submission to ensure it redirects correctly. Check input validation for all fields. |
+| Displays a message thanking the user for their booking and a call to action to return to the home page. | Yes | Ensure the "Thank You" message is displayed correctly and the button redirects to the home page. |
 
-| Logo returns to the homepage | Yes             | Everything worked as expected |
-| Navbar opens the respective page | Yes         | It didn't show any major issues |
-| Hover effect on the Navbar Links | Yes             | Works fine under all conditions |
-| Resposive and Rescalabe Images | Yes           | Good resolution and enhances to different screensizes|
-| Test Bootstrap grid system functionality | Yes | Layout remains intact at all breakpoints (desktop, tablet, and mobile).  |
-| Test navigation bar toggle functionality     | Yes             | Hamburger menu opens and closes on mobile devices.                               |
-| Verify footer links                          | Yes             | Footer links redirect to the correct pages and social media platforms.           |
-| Test cross-browser compatibility             | Yes             | Verified on Chrome, Safari, Edge, and Firefox without issues.                    |
-| Test video autoplay and controls functionality | Yes             | Video auto-plays, and controls work as expected.  |
-| Ensure video has an accessible fallback text | Yes             | Fallback text is provided for unsupported browsers.                              |
-
-| Check favicon display in browser tabs        | Yes             | All favicon sizes load properly across multiple browsers.                        |
-| Verify SEO meta tags for accuracy            | Yes             | Meta tags (description, keywords) are descriptive and relevant.                  |
-| Check social media links                     | Yes             | Links open respective social platforms in a new tab.                             |
-| Ensure copyright text displays correctly     | Yes             | Footer includes "Dinacoding Produced this website" text.                         |
-| Test call-to-action button functionality     | Yes             | Button redirects to `menu.html`.                                                 |
-| Test call-to-action button functionality     | Yes             | Button redirects to `contact.html`.                                                 |
-| Verify semantic HTML usage                   | Yes             | Section and content are wrapped in semantic `<section>` and `<div>` tags.        |
-| Ensure all external resources load correctly | Yes             | Bootstrap, FontAwesome, and custom CSS/JS load without issues.                   |
-| Test performance using Google Lighthouse     | Yes             | Performance score is above 70; need to optimize images and reduce blocking resources.  |
-| Ensure text and image alignment              | Yes             | Text aligns correctly with corresponding images across breakpoints.              |
-| Check responsiveness of section              | Yes             | Layout adjusts seamlessly across different screen sizes.                         |
-A form for users to make an enquiry, asking for their comment or question.                            | Yes | Test form submission to ensure it redirects to the "thank.html" page. Test textarea functionality.|
- Displays the restaurant address along with an embedded Google Map of the location.                    | Yes | Test the map display and verify the address details for accuracy.                               |
-
- A reservation form to make bookings, collecting name, email, guest count, date, and time.            | Yes | Test form submission to ensure it redirects correctly. Check input validation for all fields.    |
-
-Displays a message thanking the user for their booking and a call to action to return to the home page. | Yes|  Ensure the "Thank You" message is displayed correctly and the button redirects to the home page. |
 
 
 
