@@ -35,8 +35,8 @@ Also how did I prioritise my workload and workflow.
 ### User Stories
 
 - As a user, I want to feel that my expectaction will be meet.
-- As a user, I want to have clear and updated information about the restaurant and fil the form booking form easily.
-- As a user, I want to take someone special and with a unique style.
+- As a user, I want to have clear and updated information about the restaurant and fill the form booking form easily.
+- As a user, I want to take someone special to a venue with a unique style.
 - As a user, I want to use the website without the need to call the restaurant.
 
 
@@ -304,7 +304,7 @@ And now for all the restaurant content creators for the videos, I edited them us
 - [Desktop](lighthouse/lg-thank-testing.png)
 
 
-This structure provides clear differentiation for phone and desktop testing for each section and the website it is responsive in Mozilla, Microsoft Edge and Chrome
+This structure provides clear differentiation for phone and desktop testing for each section and the website it is responsive in Safari, Mozilla, Microsoft Edge and Chrome
 
 
 ## Functionality testing 
