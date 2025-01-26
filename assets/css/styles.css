@@ -218,6 +218,7 @@ footer p {
 /* Hero section styling*/
 #hero-section {
     height: 100%;
+    position: relative;
 }
 
 #hero-section>.section-wrapper {
@@ -266,6 +267,23 @@ p {
     object-fit: cover;
 
 }
+
+#playButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: var(--warm-beige);
+    color: rgb(250, 19, 19);
+    border: none;
+    padding:40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    z-index: 500;
+}
+
 
 .section-wrapper .box {
     display: flex;

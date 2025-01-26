@@ -80,7 +80,7 @@
               <h1>Welcome to PortArt</h1>
               <p>
                 “Step into a world where culinary artistry meets timeless
-                elegance.
+                elegance.”
               </p>
             </div>
             <div class="cta" aria-label="Call to action">
@@ -89,11 +89,15 @@
           </div>
           <!-- End of Hero Box-->
           <!--Hero Image-->
-          <div class="hero-img" aria-label="Hero video section">
-            <video src="assets/image/hero.mp4"  controls autoplay muted loop playsinline
-              aria-label="Welcome video showcasing PortArt restaurant experience"  title="Welcome to PortArt video">
+          <div class="hero-img" aria-label="Hero video section" style="position: relative;">
+            <video src="assets/image/hero.mp4" id="heroVideo" controls loop playsinline
+              aria-label="Welcome video showcasing PortArt restaurant experience" title="Welcome to PortArt video">
               Your browser does not support the video tag.
             </video>
+            <button id="playButton" aria-label="Play video"
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.6); color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 5px; cursor: pointer; z-index: 10;">
+              <i class="fa-solid fa-play"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -234,6 +238,8 @@
       </div>
     </div>
   </footer>
+  <!--script-->
+  <script src="index.js"></script>
   <!--Fontawesome Kit link-->
   <script src="https://kit.fontawesome.com/8fc24c8282.js" crossorigin="anonymous"></script>
   <!--Boostrap Javascript-->
