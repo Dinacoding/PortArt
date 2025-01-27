@@ -338,12 +338,56 @@ This structure provides clear differentiation for phone and desktop testing for 
 | A reservation form to make bookings, collecting name, email, guest count, date, and time. | Yes | Test form submission to ensure it redirects correctly. Check input validation for all fields. |
 | Displays a message thanking the user for their booking and a call to action to return to the home page. | Yes | Ensure the "Thank You" message is displayed correctly and the button redirects to the home page. |
 
+## Deployment
+
+To deploy this project to GitHub Pages, the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories, select [https://github.com/Dinacoding/PortArt].
+3. From the menu at the top of the repository page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source, click the drop-down menu labeled None and select Master Branch
+6. Once selected, the page will automatically refresh, and the website will be deployed
+7. Scroll back down to the GitHub Pages section to retrieve the link to the live website
 
 
+### How to run this project locally 
+
+1. Download the Git installer:
+
+Windows:
+
+Go to the official Git website: https://git-scm.com/
+Click on the "Download for Windows" button.
+Run the downloaded installer.
+Follow the on-screen instructions. It's generally recommended to use the default options during installation.
+macOS:
+
+The easiest way is to use Homebrew:
+Open Terminal.
+Type brew install git and press Enter.
+If you don't have Homebrew, install it first using the instructions on their website: https://brew.sh/
+Linux:
+
+Git is usually available through your distribution's package manager.
+For Ubuntu/Debian, use sudo apt update and then sudo apt install git.
+For Fedora/CentOS, use sudo dnf install git.
+For Arch Linux, use pacman -S git.
+2. Verify installation:
+
+Open your terminal or command prompt.
+Type git --version and press Enter.
+If Git is installed correctly, you'll see the installed Git version displayed.
 
 
+### To clone this project from GitHub:
 
-
+1. Follow this link to the Project GitHub repository.
+2. Under the repository name, click "Clone or download."
+3. In the "Clone with HTTPS" section, copy the clone URL for the repository.
+4. In your local IDE, open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
 
 
 
