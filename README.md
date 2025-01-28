@@ -337,6 +337,11 @@ This structure provides clear differentiation for phone and desktop testing for 
 | Displays the restaurant address along with an embedded Google Map of the location. | Yes | Test the map display and verify the address details for accuracy.            |
 | A reservation form to make bookings, collecting name, email, guest count, date, and time. | Yes | Test form submission to ensure it redirects correctly. Check input validation for all fields. |
 | Displays a message thanking the user for their booking and a call to action to return to the home page. | Yes | Ensure the "Thank You" message is displayed correctly and the button redirects to the home page. |
+Initial state of video and play button                        | On page load, the video is paused, and the play button displays the `playIcon`.                                        | Yes                 | Verified during initial load.                    |
+| Play button toggles video play/pause state                | Clicking the play button: <br> - Plays the video if it is paused. <br> - Pauses the video if it is playing.             | Yes                 | The button icon updates to `pauseIcon` or `playIcon` correctly. |
+| Direct video click toggles play/pause state**                   | Clicking directly on the video element: <br> - Plays the video if it is paused. <br> - Pauses the video if it is playing. | Yes                 | Button icon also updates accordingly.            |
+| Play button resets to play icon when video ends**               | After the video finishes playing (fires `ended` event), the play button updates to display the `playIcon`.             | Yes                 | The icon resets as expected.                     |
+
 
 ## Deployment
 
