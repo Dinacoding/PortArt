@@ -270,7 +270,7 @@ And now for all the restaurant content creators for the videos, I edited them us
 
 ## Code Validator
 
-Using the ![HTML](https://validator.w3.org/nu/) and the ![CSS](https://jigsaw.w3.org/css-validator/validator), W3C validation tools, I am pleased to inform you that no errors were found. Both the HTML and CSS passed successfully without any syntax issues, warnings, or structural problems. This means your code adheres to web standards and follows best practices for proper formatting and functionality
+Using the [HTML](https://validator.w3.org/nu/) and the [CSS](https://jigsaw.w3.org/css-validator/validator), W3C validation tools, I am pleased to inform you that no errors were found. Both the HTML and CSS passed successfully without any syntax issues, warnings, or structural problems. This means your code adheres to web standards and follows best practices for proper formatting and functionality
 
 
 ### HTML validator 
